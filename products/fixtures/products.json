@@ -7,10 +7,35 @@
             "name": "Arizona Original Bootcut Jeans",
             "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
             "price": 53.99,
+            "category": 4,
+            "rating": 4.6,
+            "image": "sunglasses-gaa544a7aa_1920.jpg"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Arizona Original Bootcut Jeans",
+            "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+            "price": 53.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "26282 pk-1.jpg"
+            "image": "wristwatch-g27c3cfd8e_1920.jpg"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Arizona Original Bootcut Jeans",
+            "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+            "price": 53.99,
+            "category": 5,
+            "rating": 4.6,
+            "image": "wristwatch-gd0627a677_1920.jpg"
         }
     },
     {
@@ -23,7 +48,6 @@
             "price": 58.99,
             "category": 4,
             "rating": 4.6,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "128742.jpg"
         }
     },
@@ -37,7 +61,6 @@
             "price": 205.99,
             "category": 2,
             "rating": 4.7,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "192810_Main_Thumb_0418506.jpg"
         }
     },
@@ -51,7 +74,6 @@
             "price": 169.99,
             "category": 7,
             "rating": 3.0,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "adidas-g3293ad2b6_640.jpg"
         }
     },
@@ -65,7 +87,6 @@
             "price": 232.99,
             "category": 7,
             "rating": 5.0,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "external-content.duckducgo.jpg"
         }
     },
@@ -79,8 +100,20 @@
             "price": 30.99,
             "category": 9,
             "rating": 4.7,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "external-content.duckduckg.jpg"
+            "image": "sunglasses-gaa544a7aa_1920.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
+            "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
+            "price": 30.99,
+            "category": 9,
+            "rating": 4.7,
+            "image": "handbag-g4ef5f06a0_1920.jpg"
         }
     },
     {
@@ -93,8 +126,20 @@
             "price": 59.0,
             "category": 4,
             "rating": 4.4,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "external-content.duckduckgocom.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
+            "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
+            "price": 59.0,
+            "category": 4,
+            "rating": 4.4,
+            "image": "handbag-g4ef5f06a0_1920.jpg"
         }
     },
     {
@@ -107,7 +152,6 @@
             "price": 36.99,
             "category": 7,
             "rating": 4.5,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "external-content.duckduckgo.om.jpg"
         }
     },
@@ -121,7 +165,6 @@
             "price": 169.99,
             "category": 2,
             "rating": 4.7,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "external-content.duckduckgom.jpg"
         }
     },
@@ -135,7 +178,6 @@
             "price": 33.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "fashion-ga7c4e4c4f_640.jpg"
         }
     },
@@ -149,7 +191,6 @@
             "price": 29.99,
             "category": 9,
             "rating": 3.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "fashion-gfba9a8325_640.jpg"
         }
     },
@@ -163,7 +204,6 @@
             "price": 19.99,
             "category": 1,
             "rating": 4.6,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "Hornbull-Brown-Leather-Wallet-Belt-SDL874610323-4-97ebe.jpg"
         }
     },
@@ -177,7 +217,6 @@
             "price": 20.0,
             "category": 9,
             "rating": 3.2,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "IMG_2177.jpg"
         }
     },
@@ -191,7 +230,6 @@
             "price": 26.99,
             "category": 5,
             "rating": 4.7,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "jwomen.jpg"
         }
     },
@@ -205,7 +243,6 @@
             "price": 48.99,
             "category": 5,
             "rating": 4.8,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "Master_Ultra_Thin_41_PG.jpg"
         }
     },
@@ -219,7 +256,6 @@
             "price": 65.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "MEGIR-Men-Watches-Analog-Quartz-Wristwatch-Waterproof-Chronograph-Auto-Date-Sports-Army-Military-Watch-Male-Relogio-2.jpg"
         }
     },
@@ -233,7 +269,6 @@
             "price": 33.99,
             "category": 5,
             "rating": 4.4,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "mens-invicta-watches-2015.jpg"
         }
     },
@@ -247,7 +282,6 @@
             "price": 59.99,
             "category": 2,
             "rating": 4.8,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "Nike-Sneakers-Red-Casual-Shoes-SDL843875480-4-d249e.jpg"
         }
     },
@@ -261,7 +295,6 @@
             "price": 60.99,
             "category": 2,
             "rating": 5.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "par-g23f98a4c9_640.jpg"
         }
     },
@@ -275,7 +308,6 @@
             "price": 20.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0821201317103183M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "red-gec000382c_640.jpg"
         }
     },
