@@ -289,7 +289,6 @@
             "price": 60.99,
             "category": 7,
             "rating": 4.3,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/0900631B81D676AEM.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "shoe-g43cfca97b_640.jpg"
         }
     },
@@ -303,7 +302,6 @@
             "price": 76.99,
             "category": 4,
             "rating": 5.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0917201317033820M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "shoe-g5571aa8a0_640.jpg"
         }
     },
@@ -317,7 +315,6 @@
             "price": 29.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "shoes-g3eda4aed1_640.jpg"
         }
     },
@@ -331,7 +328,6 @@
             "price": 82.0,
             "category": 2,
             "rating": 3.8,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1023201317051585M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "shoes-g4284b1d24_640.jpg"
         }
     },
@@ -345,7 +341,6 @@
             "price": 106.99,
             "category": 9,
             "rating": 3.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1108201317050996M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "shoes-g5798ff15a_640.jpg"
         }
     },
@@ -359,7 +354,6 @@
             "price": 241.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0219201502115503C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "shoes-g6870b44ad_640.jpg"
         }
     },
@@ -373,7 +367,6 @@
             "price": 338.99,
             "category": 7,
             "rating": 5.0,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0610201317080834M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "sneakers-g9e1859602_640.jpg"
         }
     },
@@ -387,7 +380,6 @@
             "price": 53.99,
             "category": 4,
             "rating": 4.3,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/0900631B818ABCB9M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
             "image": "sneakers-gad829f44d_640.jpg"
         }
     },
@@ -415,7 +407,6 @@
             "price": 72.99,
             "category": 2,
             "rating": 5.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0113201417050002M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "V3_1_Gallery_1_0304303.jpg"
         }
     },
@@ -429,7 +420,6 @@
             "price": 69.99,
             "category": 3,
             "rating": 4.0,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0213201417022274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "V3_1_Main_030474.jpg"
         }
     },
@@ -443,7 +433,6 @@
             "price": 35.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1028201517024563M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
             "image": "Victorinox-Swiss-Army-I.N.O.X.-Paracord-1.jpg"
         }
     }
