@@ -104,27 +104,27 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 2,
         "model": "products.product",
         "fields": {
             "sku": "pp5002260206",
-            "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-            "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-            "price": 30.99,
-            "category": 9,
+            "name": "Anne Klein Hand bag",
+            "description": "This is light weight yet with enough space for ladies with style who like keeping their petty belongings close",
+            "price": 90.99,
+            "category": 8,
             "rating": 4.7,
             "image": "handbag-g4ef5f06a0_1920.jpg"
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "model": "products.product",
         "fields": {
             "sku": "pp5002440521",
-            "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-            "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
+            "name": "Wrist watch lady style WWOOR-quartz",
+            "description": "Feel the pride of gold on your wrist with our new elegant but as well as casual wrist watch",
             "price": 59.0,
-            "category": 4,
+            "category": 8,
             "rating": 4.4,
             "image": "external-content.duckduckgocom.jpg"
         }
