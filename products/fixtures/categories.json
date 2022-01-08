@@ -1,1 +1,84 @@
-[{"pk": 1, "model": "products.category", "fields": {"name": "shoes", "friendly_name": "Shoes"}}, {"pk": 2, "model": "products.category", "fields": {"name": "jersey", "friendly_name": "Jersey"}}, {"pk": 3, "model": "products.category", "fields": {"name": "equipments", "friendly_name": "Equipments"}}, {"pk": 4, "model": "products.category", "fields": {"name": "footwear", "friendly_name": "Footwear"}}, {"pk": 5, "model": "products.category", "fields": {"name": "men", "friendly_name": "Men"}}, {"pk": 6, "model": "products.category", "fields": {"name": "women", "friendly_name": "Women"}}, {"pk": 7, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}, {"pk": 8, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, {"pk": 9, "model": "products.category", "fields": {"name": "men's", "friendly_name": "Men's"}}, {"pk": 10, "model": "products.category", "fields": {"name": "women's", "friendly_name": "Women's"}}]
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "shoes",
+            "friendly_name": "Shoes"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "jersey",
+            "friendly_name": "Jersey"
+           
+            
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "equipments",
+            "friendly_name": "Equipments"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "footwear",
+            "friendly_name": "Footwear"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "men",
+            "friendly_name": "Men"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "women",
+            "friendly_name": "Women"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "clearance",
+            "friendly_name": "Clearance"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "men's",
+            "friendly_name": "Men's"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "women's",
+            "friendly_name": "Women's"
+        }
+    }
+]

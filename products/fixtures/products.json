@@ -7,7 +7,7 @@
             "name": "Laker's women's top",
             "description": "anthony-davis-lakers-icon-edition-nba-swingman-jersey-hH6KpH",
             "price": 80.99,
-            "category": 6,
+            "category": 2,
             "rating": 4.6,
             "image": "00206.jpg"
         }
@@ -16,11 +16,11 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340155",
+            "sku": "pp5001340156",
             "name": "Lebron's women top",
             "description": "lebron-james-icon-edition-swingman-los-angeles-lakers-big-kids-nba-jersey-SLWS1k",
             "price": 210.99,
-            "category": 6,
+            "category": 2,
             "rating": 4.6,
             "image": "00207.jpg"
         }
@@ -29,13 +29,13 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340155",
+            "sku": "pp5001340159",
             "name": "Buck's women top",
             "description": "Maillot NBA Pas Cher Milwaukee Bucks Giannis Antetokounmpo 34 Retro Blanc 2017-18-EOI598_1",
             "price": 53.99,
-            "category": 6,
+            "category": 2,
             "rating": 4.6,
-            "image": "00208"
+            "image": "00208.jpg"
         }
     },
     {
@@ -46,7 +46,7 @@
             "name": "Wome's top shirt",
             "description": "Maillot NBA Pas Cher Milwaukee Bucks Giannis Antetokounmpo 34 Retro Blanc 2017-18-EOI598_1",
             "price": 58.99,
-            "category": 6,
+            "category": 2,
             "rating": 4.6,
             "image": "00209.jpg"
         }
