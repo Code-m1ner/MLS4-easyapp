@@ -3,13 +3,13 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340155",
-            "name": "Laker's women's top",
-            "description": "anthony-davis-lakers-icon-edition-nba-swingman-jersey-hH6KpH",
+            "sku": "pp5001340153",
+            "name": "Addidas White Low",
+            "description": "The low white addidas shoes for a chill out with friends",
             "price": 80.99,
-            "category": 2,
+            "category": 7,
             "rating": 4.6,
-            "image": "00206.jpg"
+            "image": "addidaslowshoes.jpg"
         }
     },
     {
@@ -17,12 +17,12 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001340156",
-            "name": "Lebron's women top",
-            "description": "lebron-james-icon-edition-swingman-los-angeles-lakers-big-kids-nba-jersey-SLWS1k",
+            "name": "Styled Airforce1",
+            "description": "The easy chill nikes for calm and stylish ladies",
             "price": 210.99,
-            "category": 2,
+            "category": 8,
             "rating": 4.6,
-            "image": "00207.jpg"
+            "image": "airforcecoloredwmn.jpg"
         }
     },
     {
@@ -30,12 +30,12 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001340159",
-            "name": "Buck's women top",
-            "description": "Maillot NBA Pas Cher Milwaukee Bucks Giannis Antetokounmpo 34 Retro Blanc 2017-18-EOI598_1",
-            "price": 53.99,
+            "name": "All Star red conv",
+            "description": "The converse are always the easy to wear and can be use for all occasions",
+            "price": 153.99,
             "category": 2,
-            "rating": 4.6,
-            "image": "00208.jpg"
+            "rating": 4.2,
+            "image": "airforcecoloredwmn.jpg"
         }
     },
     {
@@ -115,6 +115,6 @@
             "rating": 4.7,
             "image": "handbag-g4ef5f06a0_1920.jpg"
         }
-    },
+    }
     
 ]
