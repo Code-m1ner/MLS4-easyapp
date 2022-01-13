@@ -3,52 +3,52 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340153",
-            "name": "Addidas White Low",
+            "sku": "pp5001340149",
+            "name": "women's Red Vans",
             "description": "The low white addidas shoes for a chill out with friends",
             "price": 80.99,
-            "category": 7,
+            "category": 5,
             "rating": 4.6,
-            "image": "addidaslowshoes.jpg"
+            "image": "women's-convs-red.jpg"
         }
     },
     {
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340156",
-            "name": "Styled Airforce1",
+            "sku": "pp5001340150",
+            "name": "Swiss Millitary watch Hanowa",
             "description": "The easy chill nikes for calm and stylish ladies",
             "price": 210.99,
-            "category": 8,
+            "category": 6,
             "rating": 4.6,
-            "image": "airforcecoloredwmn.jpg"
+            "image": "swiss-watchwanowa.jpg"
         }
     },
     {
-        "pk": 2,
+        "pk": 3,
         "model": "products.product",
         "fields": {
             "sku": "pp5001340159",
-            "name": "All Star red conv",
+            "name": "Blue light open shoes",
             "description": "The converse are always the easy to wear and can be use for all occasions",
             "price": 153.99,
-            "category": 2,
+            "category": 8,
             "rating": 4.2,
-            "image": "airforcecoloredwmn.jpg"
+            "image": "light-easyopenshoe-sandal.jpg"
         }
     },
     {
-        "pk": 2,
+        "pk": 4,
         "model": "products.product",
         "fields": {
             "sku": "pp5001600425",
-            "name": "Wome's top shirt",
+            "name": "Orange and Green Airforce",
             "description": "Maillot NBA Pas Cher Milwaukee Bucks Giannis Antetokounmpo 34 Retro Blanc 2017-18-EOI598_1",
             "price": 58.99,
-            "category": 2,
+            "category": 5,
             "rating": 4.6,
-            "image": "00209.jpg"
+            "image": "yellow-airforece1.jpg"
         }
     },
     {
@@ -56,64 +56,64 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001730010",
-            "name": "Pireli women top shirt",
+            "name": "Irvin Float  ",
             "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-            "price": 205.99,
-            "category": 6,
+            "price": 105.99,
+            "category": 5,
             "rating": 4.7,
-            "image": "002010.jpg"
-        }
-    },
-    {
-        "pk": 2,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5001890157",
-            "name": "Women's top jersey",
-            "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-            "price": 169.99,
-            "category": 6,
-            "rating": 3.0,
-            "image": "002011.jpg"
-        }
-    },
-    {
-        "pk": 5,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5002111605",
-            "name": "Simply Calphalon Enameled Cast Iron Panini Pan",
-            "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
-            "price": 232.99,
-            "category": 7,
-            "rating": 5.0,
-            "image": "external-content.duckducgo.jpg"
+            "image": "keir-irvin.jpg"
         }
     },
     {
         "pk": 6,
         "model": "products.product",
         "fields": {
-            "sku": "pp5002260206",
-            "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-            "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-            "price": 30.99,
-            "category": 9,
-            "rating": 4.7,
-            "image": "sunglasses-gaa544a7aa_1920.jpg"
+            "sku": "pp5001890157",
+            "name": "Barker English Style",
+            "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
+            "price": 169.99,
+            "category": 2,
+            "rating": 3.0,
+            "image": "english-classicbarker.jpg"
         }
     },
     {
-        "pk": 2,
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "Lebron Witness 3",
+            "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
+            "price": 232.99,
+            "category": 1,
+            "rating": 5.0,
+            "image": "lebron-witness3.jpg"
+        }
+    },
+    {
+        "pk": 8,
         "model": "products.product",
         "fields": {
             "sku": "pp5002260206",
-            "name": "Anne Klein Hand bag",
+            "name": "Moon walks",
+            "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
+            "price": 30.99,
+            "category": 8,
+            "rating": 4.7,
+            "image": "moon-walks.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "The Janner's Sandals",
             "description": "This is light weight yet with enough space for ladies with style who like keeping their petty belongings close",
             "price": 90.99,
             "category": 8,
             "rating": 4.7,
-            "image": "handbag-g4ef5f06a0_1920.jpg"
+            "image": "woman's-chillies.jpg"
         }
     }
     

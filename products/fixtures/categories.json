@@ -3,16 +3,16 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "activewear",
-            "friendly_name": "Activewear"
+            "name": "sports",
+            "friendly_name": "Sports"
         }
     },
     {
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "bed_bath",
-            "friendly_name": "Bed & Bath"
+            "name": "elegant",
+            "friendly_name": "Elegant"
         }
     },
     {
@@ -23,52 +23,46 @@
             "friendly_name": "Clearance"
         }
     },
-    {
-        "pk": 4,
-        "model": "products.category",
-        "fields": {
-            "name": "deals",
-            "friendly_name": "Deals"
-        }
-    },
+    
     {
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "essentials",
-            "friendly_name": "Essentials"
+            "name": "casual",
+            "friendly_name": "Casual"
         }
     },
     {
         "pk": 6,
         "model": "products.category",
         "fields": {
-            "name": "jeans",
-            "friendly_name": "Jeans"
+            "name": "watches",
+            "friendly_name": "Watches"
         }
     },
     {
         "pk": 7,
         "model": "products.category",
         "fields": {
-            "name": "kitchen_dining",
-            "friendly_name": "Kitchen & Dining"
+            "name": "bracelets",
+            "friendly_name": "Bracelets"
         }
     },
     {
         "pk": 8,
         "model": "products.category",
         "fields": {
-            "name": "new_arrivals",
-            "friendly_name": "New Arrivals"
+            "name": "sandals",
+            "friendly_name": "Sandals"
         }
     },
     {
         "pk": 9,
         "model": "products.category",
         "fields": {
-            "name": "shirts",
-            "friendly_name": "Shirts"
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
         }
     }
+    
 ]
