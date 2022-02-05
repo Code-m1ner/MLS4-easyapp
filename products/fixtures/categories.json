@@ -3,24 +3,35 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "sports",
-            "friendly_name": "Sports"
+            "name": "men sports",
+            "friendly_name": "Men_Sports"
         }
     },
+
     {
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "elegant",
-            "friendly_name": "Elegant"
+            "name": "women sports",
+            "friendly_name": "Women_Sports"
         }
     },
+
     {
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "clearance",
-            "friendly_name": "Clearance"
+            "name": "elegant men",
+            "friendly_name": "Elegant_Men"
+        }
+    },
+
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "elegant women",
+            "friendly_name": "Elegant_Women"
         }
     },
     
@@ -28,36 +39,76 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "casual",
-            "friendly_name": "Casual"
+            "name": "casual men",
+            "friendly_name": "Casual_men"
         }
     },
+
     {
         "pk": 6,
         "model": "products.category",
         "fields": {
-            "name": "watches",
-            "friendly_name": "Watches"
+            "name": "casual women",
+            "friendly_name": "Casual_Women"
         }
     },
+
     {
         "pk": 7,
         "model": "products.category",
         "fields": {
-            "name": "bracelets",
-            "friendly_name": "Bracelets"
+            "name": "men watches",
+            "friendly_name": "Men_Watches"
         }
     },
+
     {
         "pk": 8,
         "model": "products.category",
         "fields": {
-            "name": "sandals",
-            "friendly_name": "Sandals"
+            "name": "women watches",
+            "friendly_name": "Women_Watches"
         }
     },
+
     {
         "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "men bracelets",
+            "friendly_name": "Men_Bracelets"
+        }
+    },
+
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "women bracelets",
+            "friendly_name": "Women_Bracelets"
+        }
+    },
+
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "mensandals",
+            "friendly_name": "Men_Sandals"
+        }
+    },
+
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "women sandals",
+            "friendly_name": "Women_Sandals"
+        }
+    },
+
+    {
+        "pk": 13,
         "model": "products.category",
         "fields": {
             "name": "new_arrivals",

@@ -23,9 +23,24 @@
                 Shoes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="shoes-link">
-                <a href="{% url 'products' %}?category=sports" class="dropdown-item">Sports</a>
-                <a href="{% url 'products' %}?category=elegant" class="dropdown-item">Elegant</a>
-                <a href="{% url 'products' %}?category=casual" class="dropdown-item">Casual</a>
+                <a href="#" class="dropdown-item" id="sports-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
+                <div class="dropdown-menu border-0 " aria-labelledby="sports-link">
+                    <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                    <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                </div>
+                
+                <a href="#" class="dropdown-item" id="elegant-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elegant</a>
+                <div class="dropdown-menu border-0 " aria-labelledby="elegant-link">
+                    <a href="{% url 'products' %}?category=elegant_men" class="dropdown-item">Men</a>
+                    <a href="{% url 'products' %}?category=elegant_women" class="dropdown-item">Women</a>
+                </div>
+
+                <a href="#" class="dropdown-item" id="casual-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Casual</a>
+                <div class="dropdown-menu border-0 " aria-labelledby="casual-link">
+                    <a href="{% url 'products' %}?category=casual_men" class="dropdown-item">Men</a>
+                    <a href="{% url 'products' %}?category=casual_women" class="dropdown-item">Women</a>
+                </div>
+    
                 <a href="{% url 'products' %}?category=sports,elegant,casual" class="dropdown-item">All Shoes</a>
             </div>
         </li>
