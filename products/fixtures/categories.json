@@ -3,8 +3,8 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "men sports",
-            "friendly_name": "Men_Sports"
+            "name": "men_sports",
+            "friendly_name": "Men Sports"
         }
     },
 
@@ -12,8 +12,8 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "women sports",
-            "friendly_name": "Women_Sports"
+            "name": "women_sports",
+            "friendly_name": "Women Sports"
         }
     },
 
@@ -21,8 +21,8 @@
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "elegant men",
-            "friendly_name": "Elegant_Men"
+            "name": "elegant_men",
+            "friendly_name": "Elegant Men"
         }
     },
 
@@ -30,8 +30,8 @@
         "pk": 4,
         "model": "products.category",
         "fields": {
-            "name": "elegant women",
-            "friendly_name": "Elegant_Women"
+            "name": "elegant_women",
+            "friendly_name": "Elegant Women"
         }
     },
     
@@ -39,8 +39,8 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "casual men",
-            "friendly_name": "Casual_men"
+            "name": "casual_men",
+            "friendly_name": "Casual Men"
         }
     },
 
@@ -48,8 +48,8 @@
         "pk": 6,
         "model": "products.category",
         "fields": {
-            "name": "casual women",
-            "friendly_name": "Casual_Women"
+            "name": "casual_women",
+            "friendly_name": "Casual Women"
         }
     },
 
@@ -57,8 +57,8 @@
         "pk": 7,
         "model": "products.category",
         "fields": {
-            "name": "men watches",
-            "friendly_name": "Men_Watches"
+            "name": "men_watches",
+            "friendly_name": "Men Watches"
         }
     },
 
@@ -66,8 +66,8 @@
         "pk": 8,
         "model": "products.category",
         "fields": {
-            "name": "women watches",
-            "friendly_name": "Women_Watches"
+            "name": "women_watches",
+            "friendly_name": "Women Watches"
         }
     },
 
@@ -75,8 +75,8 @@
         "pk": 9,
         "model": "products.category",
         "fields": {
-            "name": "men bracelets",
-            "friendly_name": "Men_Bracelets"
+            "name": "men_bracelets",
+            "friendly_name": "Men Bracelets"
         }
     },
 
@@ -84,8 +84,8 @@
         "pk": 10,
         "model": "products.category",
         "fields": {
-            "name": "women bracelets",
-            "friendly_name": "Women_Bracelets"
+            "name": "women_bracelets",
+            "friendly_name": "Women Bracelets"
         }
     },
 
@@ -93,8 +93,8 @@
         "pk": 11,
         "model": "products.category",
         "fields": {
-            "name": "mensandals",
-            "friendly_name": "Men_Sandals"
+            "name": "men_sandals",
+            "friendly_name": "Men Sandals"
         }
     },
 
@@ -102,8 +102,8 @@
         "pk": 12,
         "model": "products.category",
         "fields": {
-            "name": "women sandals",
-            "friendly_name": "Women_Sandals"
+            "name": "women_sandals",
+            "friendly_name": "Women Sandals"
         }
     },
 

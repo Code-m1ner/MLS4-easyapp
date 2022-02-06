@@ -25,6 +25,8 @@ SECRET_KEY = 'ztu5dhnioolk=k_oa7ga8p+v8eo1&&hk@x8hxn60wu)g*l4n*0'
 
 #SECRET_KEY = 'ztu5dhnioolk=k_oa7ga8p+v8eo1&&hk@x8hxn60wu)g*l4n*0'
 
+#SECRET_KEY = 'ztu5dhnioolk=k_oa7ga8p+v8eo1&&hk@x8hxn60wu)g*l4n*0'
+
 #SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
