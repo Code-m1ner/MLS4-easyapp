@@ -1,4 +1,97 @@
 
+<style>
+    ul {
+        list-style: none;
+    }
+    nav {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 2rem;
+    }
+    .menu > li, .menu > a {
+        display: inline-block;
+    }
+    .menu li {
+        position: relative;
+    }
+    .menu a {
+        text-decoration: none;
+        display: block;
+        padding: 10px 1.5rem;
+        transition: background-color .22s ease, color .22s ease;
+    }
+    .menu a:hover {
+        background-color: #f34949;
+        color: #fff;
+    }
+
+    .submenu {
+        position: absolute;
+        width: 140px;
+        display: none;
+    }
+    .submenu-mini {
+        position: absolute;
+        left: 100%;
+        width: 140px;
+        top: 0;
+        display: none;
+    }
+    .menu li:hover > .submenu{
+        display: block;
+    }
+
+    .menu li:hover > .submenu-mini{
+        display: block;
+    }
+    
+</style>
+
+<nav>
+    <ul class="menu">
+        <li><a href="#">All Products</a>
+            <ul class="submenu">
+                <li><a href="#">products</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#"></a></li>
+                
+            </ul>
+        </li>
+        <li><a href="#">Shoes</a>
+            <ul class="submenu">
+                <li><a href="#">Sports</a>
+                    <ul class="submenu-mini">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Casual</a>
+                    <ul class="submenu-mini">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Elegant</a>
+                    <ul class="submenu-mini">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"></a></li>
+                
+            </ul>
+        </li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Special Offers</a></li>
+    </ul>
+</nav>
+
+<!---
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
@@ -67,4 +160,4 @@
             </div>
         </li>
     </ul>
-</div>
+</div>>
