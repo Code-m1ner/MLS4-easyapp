@@ -29,6 +29,7 @@
         border-radius: 8px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+        background-color: #fff;
     }
     .submenu-mini {
         position: absolute;
@@ -141,74 +142,3 @@
         </li>
     </ul>
 </div>
-
-<!---
-<div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
-                Home
-            </a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="shoes-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Shoes
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="shoes-link">
-                <a href="#" class="dropdown-item" id="sports-link" data-toggle="dropdown" >Sports</a>
-                <div class="dropdown-menu" aria-labelledby="sports-link" style="position: absolute; left: 6rem; top: 3rem;">
-                    <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                    <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
-                </div>
-                
-                <a href="#" class="dropdown-item" id="elegant-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elegant</a>
-                <div class="dropdown-menu border-0 " aria-labelledby="elegant-link">
-                    <a href="{% url 'products' %}?category=elegant_men" class="dropdown-item">Men</a>
-                    <a href="{% url 'products' %}?category=elegant_women" class="dropdown-item">Women</a>
-                </div>
-
-                <a href="#" class="dropdown-item" id="casual-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Casual</a>
-                <div class="dropdown-menu border-0 " aria-labelledby="casual-link">
-                    <a href="{% url 'products' %}?category=casual_men" class="dropdown-item">Men</a>
-                    <a href="{% url 'products' %}?category=casual_women" class="dropdown-item">Women</a>
-                </div>
-    
-                <a href="{% url 'products' %}?category=sports,elegant,casual" class="dropdown-item">All Shoes</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Accessories
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="{% url 'products' %}?category=watches" class="dropdown-item">Watches</a>
-                <a href="{% url 'products' %}?category=bracelets" class="dropdown-item">Bracelets</a>
-                <a href="{% url 'products' %}?category=watches,bracelets" class="dropdown-item">All Accessories</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
-            </div>
-        </li>
-    </ul>
-</div>>
