@@ -3,15 +3,7 @@
     ul {
         list-style: none;
     }
-    nav {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 1rem;
-        font-weight: 2rem;
-    }
+    
     .menu > li, .menu > a {
         display: inline-block;
     }
@@ -31,15 +23,32 @@
 
     .submenu {
         position: absolute;
-        width: 140px;
+        width: 120px;
         display: none;
+        padding-left: 0.9px;
+        border-radius: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
     }
     .submenu-mini {
         position: absolute;
         left: 100%;
-        width: 140px;
+        width: 130px;
         top: 0;
         display: none;
+        border-radius: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .submenu-mini2 {
+        position: absolute;
+        left: 100%;
+        width: 130px;
+        top: 0;
+        display: none;
+        border-radius: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
     }
     .menu li:hover > .submenu{
         display: block;
@@ -48,48 +57,90 @@
     .menu li:hover > .submenu-mini{
         display: block;
     }
+    .menu li:hover > .submenu-mini2{
+        display: block;
+    }
     
 </style>
 
-<nav>
-    <ul class="menu">
-        <li><a href="#">All Products</a>
-            <ul class="submenu">
-                <li><a href="#">products</a></li>
-                <li><a href="#">products</a></li>
-                <li><a href="#">products</a></li>
-                <li><a href="#"></a></li>
+<div class="collapse navbar-collapse" id="main-nav">
+    <ul class="menu navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item" >
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Products
+            </a>
+            <ul class="submenu border-0" aria-labelledby="all-products-link">
+                <li><a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a></li>
+                <li><a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a></li>
+                <li><a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a></li>
+                <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
                 
             </ul>
         </li>
-        <li><a href="#">Shoes</a>
-            <ul class="submenu">
-                <li><a href="#">Sports</a>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="shoes-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shoes
+            </a>
+            <ul class="submenu border-0" aria-labelledby="shoes-link">
+                <li><a href="#" class="dropdown-item">Sports</a>
                     <ul class="submenu-mini">
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
+                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
                     </ul>
                 </li>
-                <li><a href="#">Casual</a>
+                <li><a href="#" class="dropdown-item">Casual</a>
                     <ul class="submenu-mini">
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
+                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
                     </ul>
                 </li>
-                <li><a href="#">Elegant</a>
+                <li><a href="#" class="dropdown-item">Elegant</a>
                     <ul class="submenu-mini">
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
+                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
                     </ul>
                 </li>
-                <li><a href="#"></a></li>
+                <li>
+                    <a href="{% url 'products' %}?category=sports,elegant,casual" class="dropdown-item">All Shoes</a>
+                </li>
                 
             </ul>
         </li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Special Offers</a></li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Accessories
+            </a>
+            <ul class="submenu">
+                <li class="nav-item"><a href="#" class="dropdown-item">Watches</a>
+                    <ul class="submenu-mini2">
+                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                    </ul></li>
+                </li>
+                <li><a href="#" class="dropdown-item">Wallets</a>
+                    <ul class="submenu-mini2">
+                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Special Offers
+            </a>
+            <ul class="submenu">
+                <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
+                <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+            </ul>
+        </li>
     </ul>
-</nav>
+</div>
 
 <!---
 <div class="collapse navbar-collapse" id="main-nav">
