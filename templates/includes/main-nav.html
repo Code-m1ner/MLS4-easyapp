@@ -29,20 +29,23 @@
                         <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
                     </ul>
                 </li>
+                <li><a href="#" class="dropdown-item">Sandals</a>
+                    <ul class="submenu-mini">
+                        <a href="{% url 'products' %}?category=men_sandals" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_sandals" class="dropdown-item">Women</a>
+                    </ul>
+                </li>
                 <li><a href="#" class="dropdown-item">Casual</a>
                     <ul class="submenu-mini">
-                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                        <a href="{% url 'products' %}?category=casual_men" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=casual_women" class="dropdown-item">Women</a>
                     </ul>
                 </li>
                 <li><a href="#" class="dropdown-item">Elegant</a>
                     <ul class="submenu-mini">
-                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                        <a href="{% url 'products' %}?category=elegant_men" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=elegant_women" class="dropdown-item">Women</a>
                     </ul>
-                </li>
-                <li>
-                    <a href="{% url 'products' %}?category=sports,elegant,casual" class="dropdown-item">All Shoes</a>
                 </li>
                 
             </ul>
@@ -54,14 +57,14 @@
             <ul class="submenu">
                 <li class="nav-item"><a href="#" class="dropdown-item">Watches</a>
                     <ul class="submenu-mini2">
-                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                        <a href="{% url 'products' %}?category=men_watches" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_watches" class="dropdown-item">Women</a>
                     </ul></li>
                 </li>
                 <li><a href="#" class="dropdown-item">Wallets</a>
                     <ul class="submenu-mini2">
-                        <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                        <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                        <a href="{% url 'products' %}?category=men_wallet" class="dropdown-item">Men</a>
+                        <a href="{% url 'products' %}?category=women_purse" class="dropdown-item">Women</a>
                     </ul>
                 </li>
             </ul>
@@ -71,9 +74,10 @@
                 Special Offers
             </a>
             <ul class="submenu">
-                <a href="{% url 'products' %}?category=men_sports" class="dropdown-item">Men</a>
-                <a href="{% url 'products' %}?category=women_sports" class="dropdown-item">Women</a>
+                <a href="{% url 'products' %}?category=arrivals" class="dropdown-item">New Arrivals</a>
+                
             </ul>
+            
         </li>
     </ul>
 </div>
