@@ -51,3 +51,5 @@ class Comment(models.Model):
 
 class Stock(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=0)
+    create_at = models.DateTimeField(auto_now_add=True)
