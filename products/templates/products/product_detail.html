@@ -37,11 +37,23 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
-                    {% endif %}
+                    <a href="#reviews-section" class="unstyled fs-6" id="review-link">
+                        <p class="content-text text-black">{% include 'products/includes/stars.html' %} 
+                            <small class="px-2">
+                                {% if rating %}
+                                    <strong>{{ rating }}</strong>  ({{ ratings }} 
+                                        {% if ratings > 1 %}
+                                            Reviews
+                                        {% else %}
+                                            Review
+                                        {% endif %})
+                                {% else %}
+                                    Write a Review
+                                {% endif %}
+                            </small>
+                        </p>
+                    </a>
+                        
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}">Edit</a> | 
@@ -111,9 +123,190 @@
             </div>
         </div>
     </div>
+<!--Product Reviews Section-->
+<div class="container d-none" id="reviews-section">
+    <div class="row my-1">
+
+        <!--Product Reviews Column-->
+        <div class="col-12 col-md-6 px-4 content-text py-3 py-md-5">
+            <h4 class="title-text text-center">Product Reviews</h4>
+            <hr>
+            {% if comments %}
+                {% for comment in comments %}
+                    <p class="mb-2">{% include 'products/includes/comment_stars.html' %}<span class="ps-3"><strong>{{ comment.subject }}</strong></span></p>
+                    <p class="mb-1"><i class="fas fa-user"></i><span class="ps-2">{{comment.user}}</span></p>
+                    <p><i class="fas fa-calendar-day"></i><span class="ps-2">{{comment.create_at}}</span></p>
+                    <p>{{ comment.comment }}</p>
+                    {% if comment.user == request.user or request.user.is_superuser %}
+                        <small>
+                            <span class="text-danger pointer" data-toggle="modal" data-target="#deleteCommentModal" data-id="{{ comment.subject }}" data-url="{% url 'delete_comment' comment.id %}"><i class="fas fa-minus-circle"></i></span>
+                        </small>
+                    {% endif %}
+
+                    <hr>
+                {% endfor %}
+            {% else %}
+                <p class="text-center">This product has not received any reviews yet.</p>
+            {% endif %}
+        </div>
+
+        <!--Product Reviews Form-->
+        <div class="col-12 col-md-6 px-4 content-text py-3 py-md-5 ">
+            <h4 class="title-text text-center mb-3">Write a Review</h4>
+            <hr>
+            {% if user.is_authenticated %}
+                <form class="form mb-2" action="{% url 'add_comment' product.id%}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" class="product-style-input textinput textInput form-control review-input" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment" rows="4" placeholder="Review" class="product-style-input textarea form-control review-input" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="rating" >Rating 
+                            (<i class="fas fa-star checked-star"></i>
+                            <i class="fas fa-star checked-star"></i>
+                            <i class="fas fa-star checked-star"></i>
+                            <i class="fas fa-star checked-star"></i>
+                            <i class="fas fa-star checked-star"></i>)
+                        </label>
+                        <select class="form-control product-style-input" name="rating">
+                        <option name="rating" value="1">1 Star</option>
+                        <option name="rating" value="2">2 Stars</option>
+                        <option name="rating" value="3">3 Stars</option>
+                        <option name="rating" value="4">4 Stars</option>
+                        <option name="rating" value="5">5 Stars</option>
+                        </select>
+                    </div>
+                    <button class="btn content-text buttons-general text-black text-uppercase fs-8 mb-2">Submit</button>
+                </form>
+            {% else %}
+                <p class="text-center">Please <a href="{% url 'account_login' %}" class="unstyled-color text-black"><strong>Login</strong></a> or <a href="{% url 'account_signup' %}" class="unstyled-color text-black"><strong>Sign Up</strong></a> if you wish to leave a review.</p>
+
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!--Delete Product Modal-->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header title-text text-center">
+                <h5 class="modal-title">Delete Product</h5>
+            </div>
+            <div class="modal-body content-text text-center">
+                <p>Are you sure you want to delete <strong>{{ product.name }}</strong>?</p>
+            </div>
+            <div class="modal-footer text-center">
+                <button class="btn content-text buttons-general text-white text-uppercase fs-6 mb-2"
+                    data-dismiss="modal">Cancel</button>
+                <a class="btn content-text delete-button text-uppercase fs-6 mb-2"
+                    href="{% url 'delete_product' product.id %}">Delete Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Delete Review Modal-->
+<div class="modal fade" id="deleteCommentModal" tabindex="-1" aria-labelledby="deleteCommentModal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header title-text text-center">
+                <h5 class="modal-title">Delete Review</h5>
+            </div>
+            <div class="modal-body content-text text-center">
+                <p>Are you sure you want to delete <strong><span id="modalCommentName"></span></strong>?</p>
+            </div>
+            <div class="modal-footer text-center">
+                <button class="btn content-text buttons-general text-white text-uppercase fs-6 mb-2"
+                    data-dismiss="modal">Cancel</button>
+                <a class="btn content-text delete-button text-uppercase fs-6 mb-2 pointer" id="deleteBtn">Delete
+                    Review</a>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
+
+<script>
+/*
+    When the reviews tab is clicked is changes the tabs colors, hides the 
+    product information section and displays the review section
+*/
+$('#reviews-tab, #review-link').click(function() {
+    $('#reviews-section').removeClass('d-none');
+    $('#reviews-div').addClass('product-detail-tabs').removeClass('product-detail-tabs-2');
+    $('#details-section').addClass('d-none');
+    $('#details-div').addClass('product-detail-tabs-2').removeClass('product-detail-tabs');
+});
+
+/*
+    When the details tab is clicked is changes the tabs colors, hides the 
+    review section section and displays the product information section
+*/
+$('#details-tab, #read-more-link').click(function() {
+    $('#reviews-section').addClass('d-none');
+    $('#reviews-div').removeClass('product-detail-tabs').addClass('product-detail-tabs-2');
+    $('#details-section').removeClass('d-none');
+    $('#details-div').removeClass('product-detail-tabs-2').addClass('product-detail-tabs');
+});
+
+/* 
+    When the delete review modal is opened it takes the comment ID and URL
+    so the correct review is deleted
+*/
+$('#deleteCommentModal').on('shown.bs.modal', function(event) {
+    $("#modalCommentName").text($(event.relatedTarget).data('id'));
+    $("#deleteBtn").attr('href', $(event.relatedTarget).data('url'));
+});
+
+/* 
+    This allows the sizing chart to slide in and out on clicking 
+    the sizing chart link.
+    Thanks to Web Cifar (Credited in README)
+*/
+let open_btn = document.querySelector("#sizing-chart");
+let close_btn = document.querySelector(".close-btn");
+let popup = document.querySelector(".popup");
+let main_popup = document.querySelector(".main-popup");
+
+// Opens the sizing chart
+if (open_btn) {
+    open_btn.addEventListener('click', () => {
+        popup.style.display = 'flex';
+        main_popup.style.cssText = 'animation:slide-in .5s ease; animation-fill-mode: forwards;';
+    });
+}
+
+// Closes the sizing chart
+if (open_btn) {
+    close_btn.addEventListener('click', () => {
+        main_popup.style.cssText = 'animation:slide-out .5s ease; animation-fill-mode: forwards;';
+        setTimeout(() => {
+            popup.style.display = 'none';
+        }, 500);
+    });
+}
+
+// Closes the sizing chart when user clicks elsewhere on the screen
+if (open_btn) {
+    window.addEventListener('click', (e) => {
+        if (e.target == document.querySelector('.popup-overlay')) {
+            main_popup.style.cssText = 'animation:slide-out .5s ease; animation-fill-mode: forwards;';
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 500);
+        }
+    });
+}
+</script>
 {% endblock %}
