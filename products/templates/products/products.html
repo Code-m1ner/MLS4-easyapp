@@ -78,11 +78,9 @@
                                             </p>
                                             {% endif %}
                                             {% if product.rating %}
-                                            {% include 'products/includes/stars.html' %}
-                                            <p class="content-text small text-muted mb-1">(Rating: {{ product.rating }}/5)</p>
-                                            {% else %}
-                                                <small class="text-muted">No Rating</small>
-                                            {% endif %}
+                                        {% include 'products/includes/stars.html' %}
+                                        <p class="content-text small text-muted mb-1">(Rating: {{ product.rating }}/5)</p>
+                                        {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 

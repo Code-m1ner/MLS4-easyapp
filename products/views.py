@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.db.models import Q
+from django.db.models import Q,  Avg
 from django.db.models.functions import Lower
+from django.http import HttpResponseRedirect
 
 from .models import Product, Category, Comment
 from .forms import ProductForm, CommentForm
@@ -62,9 +63,7 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
-    product = get_object_or_404(Product, pk=product_id)
-
-    """# Gets the product from the database
+    # Gets the product from the database
     product = get_object_or_404(Product, pk=product_id)
     # Gets the comments attached to the product from the database
     # and order so the latest comment appears first
@@ -82,9 +81,10 @@ def product_detail(request, product_id):
     else:
         ratings = 0
         rating = 0
-"""
+
     context = {
         'product': product,
+        'comments': comments,
     }
 
     return render(request, 'products/product_detail.html', context)

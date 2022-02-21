@@ -47,3 +47,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.subject
+
+
+class Stock(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
