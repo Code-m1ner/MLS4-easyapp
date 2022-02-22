@@ -1,18 +1,18 @@
-<h1 align="center">BUCKET STORE</h1>
+<h1 align="center">Easy App</h1>
 
 ![Mock-Up](documentation/wireframes/mock-up/mock_up.png)
 
-View the repository in GitHub [here](https://github.com/Tawnygoody/Tarmachan)
+View the repository in GitHub [here](https://github.com/Rj12-art/MLS4-easyapp)
 
-View the live project [here](https://tarmachan.herokuapp.com/)
+View the live project [here](https://mls4.herokuapp.com/)
 
 # Overview
 
-Bucket store was built as the 4th milestone project as part of Code Institute's Full Stack Software Software Development course. The full stack application uses a Django framework, HTML, CSS, Javascript and Python. 
+The Easy App is developed as the 4th milestone project as part of Code Institute's Full Stack Software Software Development course. The full stack application uses a Django framework, HTML, CSS, Javascript and Python. 
 
-Bucket Store (Gaelic for Ptarmigan) is a fictitious online e-commerce retailer providing mountain clothing and equipment for consumers. Visitors to the site would be able to browse all products available split into 3 master categories (Men's, Women's and equipment) and further sub-categories, read blog posts uploaded by the site admin, register for an account to view past orders, add products to a personalised wishlist, write product reviews, contact the company with any queries and sign up for the company newsletter. 
+Easy App is a fictitious online e-commerce retailer providing shoes, accessories and equipment for consumers. Visitors to the site would be able to browse all products available split into several targeted categories highlighted right under the product, register for an account to view past orders, add products to a the bag, write product reviews, contact the company with any queries. 
 
-Bucket store features e-commerce functionality, a payments system using Stripe, CRUD functionality for admin users to manage, products, blog posts, contact messages and Django's integrated admin section for admin users to access database records. 
+Easy App features e-commerce functionality, a payments system using Stripe, CRUD functionality for admin users to manage, products, contact messages and Django's integrated admin section for admin users to access database records. 
 
 Please Note that the website is for educational purposes only. Stripe's credit card payment functionality is real but remains in a "test mode" so that no payments will be taken. Please do not enter any personal credit/debit card numbers whilst using the site. 
 
@@ -59,35 +59,33 @@ To use the Stripe payment system when making purchases please use the following 
 3. As a first time user, I want to be able to view a range of products on the same page. 
 4. As a first time user, I want to be able to view individual product detail. 
 5. As a first time user, I want to be able to locate any special offers & deals to take advantage of any reduced prices. 
-6. As a first time user, I would like to find out information about the company to see what the business can deliver. 
-7. As a first time user, I want to be able to contact the business with any queries I may have. 
+6. As a first time user, I want to be able to contact the business with any queries I may have. 
 
 #### Registration & User Accounts
-8. As a site user, I want to be able to sign up and register an account to make future purchases easier. 
-9. As a site user, I want to be able to have access to a personal profile page where I'm able to see my order history and delivery details. 
-10. As a site user, I want to be able to leave reviews on products to inform future site users about the business's products. 
-11. As a site user, I want to be able to save items to a Wishlist for ease of purchase on future visits. 
+7. As a site user, I want to be able to sign up and register an account to make future purchases easier. 
+8. As a site user, I want to be able to have access to a personal profile page where I'm able to see my order history and delivery details. 
+9. As a site user, I want to be able to leave reviews on products to inform future site users about the business's products. 
+10. As a site user, I want to be able to save items to the bag for ease of purchase on future visits. 
 
 #### Sorting & Searching
-12. As a site user, I want to be able to see all the products that the company sells. 
-13. As a site user, I want to be able to narrow down the products by categories and sub-categories. 
-14. As a site user, I want to be able to sort products with various parameters. 
-15. As a site user, I want to be able to search for products using keywords. 
+11. As a site user, I want to be able to see all the products that the company sells. 
+12. As a site user, I want to be able to narrow down the products by categories and sub-categories. 
+13. As a site user, I want to be able to sort products with various parameters. 
+14. As a site user, I want to be able to search for products using keywords. 
 
 #### Purchasing & Checkout
-16. As a purchasing user, I want to be able to select product sizes (on products that have sizes) and select the quantity of product I wish to purchase. 
-17. As a purchasing user, I want to be able to add items to a basket should I wish to make more than one purchase. 
-18. As a purchasing user, I want to be notified when I've made changes to my basket and show an updated total price. 
-19. As a purchasing user, I want to be able to update items in the basket by changing the quantity or removing the item from the basket entirely. 
-20. As a purchasing user, I want to be able to checkout securely. 
-21. As a purchasing user, I want to be able to view a confirmation page of my order and receive an email confirmation once the purchase is successful. 
+15. As a purchasing user, I want to be able to select product sizes (on products that have sizes) and select the quantity of product I wish to purchase. 
+16. As a purchasing user, I want to be able to add items to a basket should I wish to make more than one purchase. 
+17. As a purchasing user, I want to be notified when I've made changes to my basket and show an updated total price. 
+18. As a purchasing user, I want to be able to update items in the basket by changing the quantity or removing the item from the basket entirely. 
+19. As a purchasing user, I want to be able to checkout securely. 
+20. As a purchasing user, I want to be able to view a confirmation page of my order and receive an email confirmation once the purchase is successful. 
 
 #### Admin & Store Management
-22. As a site owner, I want to be able to add, edit and remove products from the site easily. 
-23. As a site owner, I want access to an admin section to view and manage orders. 
-24. As a site owner, I want to be able to manage blog posts.
-25. As a site owner, I want to be able to delete product reviews if they are unsuitable for the site. 
-26. As a site owner, I want to be able to monitor contact messages that have been submitted by site users and delete them once they have been responded to. 
+21. As a site owner, I want to be able to add, edit and remove products from the site easily. 
+22. As a site owner, I want access to an admin section to view and manage orders. 
+23. As a site owner, I want to be able to delete product reviews if they are unsuitable for the site. 
+24. As a site owner, I want to be able to monitor contact messages that have been submitted by site users and delete them once they have been responded to. 
 
 
 ## Scope
@@ -101,16 +99,12 @@ The key features of the website were developed based on the user stories
 - Shopping Bag page, where users can see what products have been added to their bag. 
 - Checkout page, allowing users to purchase products. 
 - Confirmation page, allowing users to see a confirmation of their order. 
-- Blog Page, where users can look at all the blog posts that have been uploaded by the site owner. 
-- Blog Detail Page, where users can find out more information about each blog post.
 - Contact Page, where users can contact the company with any queries.
-- Newsletter Subscribe form, available on all pages where users can subscribe to the company newsletter. 
 - Sign Up Page, where users can register to become a registered user. 
-- About Us Page, where users can find out more about the company. 
 
 ### For registered users: 
 All of the above plus: 
-- Wishlist page, where users can store products in their wishlist. 
+- The bag page, where users can store products in their bag. 
 - Profile Page, where users can update their default delivery information allowing for ease at checkout. 
 - Order History, from the profile page, users can see the previous orders they have made. 
 - Product Reviews, on the product detail page, users can leave a rating and a message about a product. 
@@ -118,9 +112,9 @@ All of the above plus:
 
 ### For Site Admin:
 All of the above plus: 
-- Site management page, where admin users can add products, blog, and review contact messages from other users. 
-- Add Product / Blog page, where admin can add products / blogs. 
-- Edit Product / Blog Page, where admin can update products / blogs. 
+- Site management page, where admin users can add products, and review contact messages from other users. 
+- Add Product / where admin can add products. 
+- Edit Product / where admin can update products. 
 - Product Reviews, admin can delete reviews from any user who has left a review. 
 
 ## Structure
@@ -129,17 +123,17 @@ All of the above plus:
 
 #### Base Template
 
-- Delivery Banner - The delivery banner contains information about free delivery and the free delivery threshold. It is fixed to the top of the screen to allow for ease of access and improved user navigation. The links take users to different parts of the site which are as follows:
+- Delivery Banner - The delivery banner contains information about free delivery and the free delivery threshold. It is fixed to the bottom of the main navigation menu of the screen to allow for ease of access and improved user navigation. The links take users to different parts of the site which are as follows:
     - Unregistered user: 
         - Login link
         - Register link
     - Registered user: 
-        - Wishlist
+        - Bag
         - Profile
         - Log Out
     - Superuser:
-        - Site Administration
-        - Wishlist
+        - product Management
+        - Bag
         - Profile
         - Log Out
 
