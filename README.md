@@ -1,6 +1,6 @@
 <h1 align="center">Easy App</h1>
 
-![Mock-Up](documentation/wireframes/mock-up/mock_up.png)
+![Mock-Up](documentation/wireframes/mock-up/mock_up .png)
 
 View the repository in GitHub [here](https://github.com/Rj12-art/MLS4-easyapp)
 
