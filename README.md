@@ -21,39 +21,45 @@ To use the Stripe payment system when making purchases please use the following 
 - Date: Any future date
 - CVC: Any number
 
-# Contents
+# Table of Contents
 
-1. [User Experience (UX)](#user-experience-(ux))
-    - [Strategy](#strategy)
-    - [Scope](#scope)
-    - [Structure](#structure)
-    - [Skeleton](#skeleton)
-    - [Surface](#surface)
-2. [Information Architecture](#information-architecture)
-    - [Database](#database)
-    - [Data Model](#data-model)
-3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-    - [Local Deployment](#local-deployment)
-    - [Deployment to Heroku](#deployment-to-heroku)
-    - [Storing Static Files with AWS](#storing-static-files-with-aws)
-    - [Connecting Stripe to Heroku](#connecting-stripe-to-heroku)
-6. [Credits](#credits)
-    - [Code](#code)
-    - [Media](#media)
-    - [Blog Credits](#blog-credits)
-7. [Acknowledgments](#acknowledgments)
+-   [1. UX](#ux)
+    -   [1.1. Strategy](#strategy)
+        -   [Project Goals](#project-goals)
+            -   [User Goals:](#user-goals)
+            -   [User Expectations:](#user-expectations)
+            -   [Admin Expectations:](#admin-expectations)
+            -   [Trends of Modern Websites](#trends-of-modern-websites)
+            -   [Strategy Table](#strategy-table)
+    -   [1.2. Structure](#structure)
+    -   [1.3. Skeleton](#skeleton)
+    -   [1.4. Surface](#surface)
+-   [2. Features](#features)
+-   [3. Technologies Used](#technologies-used)
+-   [4. Testing](#testing)
+-   [5. Development Cycle](#development-cycle)
+-   [6. Deployment](#deployment)
+-   [7. End Product](#end-product)
+-   [8. Known Bugs](#known-bugs)
+-   [9. Credits](#credits)
+# 1. UX
 
+[Go to the top](#table-of-contents)
 
+As a basketball player, I have always liked wearing nice shoes and good accessories in hand. I do drive kilometers to big shoe stores to see if I can have a pair that fits me which I find as a waste of time and energy and hence
+The simplest way is to have an application to pick and order. The ordering system is best when it's simple to use and asks for the necessary information.
 
-# User Experience (UX)
+This project will showcase simplicity and ease to order a product, update a the bag where you save your products, delete the saved product, create a personal profile and save personal information regarding the purchase that you may use in future purchses a.
+## 1.1. Strategy
 
-## Strategy
+[Go to the top](#table-of-contents)
 
-### User Stories
+### Project Goals
+The main goal of this project is to allow the user to sign up, sign in/out, create/update a user profile and create/update/delete a product on the bag in a simple and effective process.
 
-#### Viewing & Navigation
+### User Goals
+
+#### First Time Visitor Goals
 1. As a first time user, I would like to instinctively know what the website is offering. 
 2. As a first time user, I would like an intuitive navigation system to easily move around the site. 
 3. As a first time user, I want to be able to view a range of products on the same page. 
@@ -61,19 +67,19 @@ To use the Stripe payment system when making purchases please use the following 
 5. As a first time user, I want to be able to locate any special offers & deals to take advantage of any reduced prices. 
 6. As a first time user, I want to be able to contact the business with any queries I may have. 
 
-#### Registration & User Accounts
+#### Registered user Goals
 7. As a site user, I want to be able to sign up and register an account to make future purchases easier. 
 8. As a site user, I want to be able to have access to a personal profile page where I'm able to see my order history and delivery details. 
 9. As a site user, I want to be able to leave reviews on products to inform future site users about the business's products. 
 10. As a site user, I want to be able to save items to the bag for ease of purchase on future visits. 
 
-#### Sorting & Searching
+#### Frequent visitor Goals
 11. As a site user, I want to be able to see all the products that the company sells. 
 12. As a site user, I want to be able to narrow down the products by categories and sub-categories. 
 13. As a site user, I want to be able to sort products with various parameters. 
 14. As a site user, I want to be able to search for products using keywords. 
 
-#### Purchasing & Checkout
+### User Expectation:
 15. As a purchasing user, I want to be able to select product sizes (on products that have sizes) and select the quantity of product I wish to purchase. 
 16. As a purchasing user, I want to be able to add items to a basket should I wish to make more than one purchase. 
 17. As a purchasing user, I want to be notified when I've made changes to my basket and show an updated total price. 
@@ -81,43 +87,168 @@ To use the Stripe payment system when making purchases please use the following 
 19. As a purchasing user, I want to be able to checkout securely. 
 20. As a purchasing user, I want to be able to view a confirmation page of my order and receive an email confirmation once the purchase is successful. 
 
-#### Admin & Store Management
+#### Admin Expectations:
 21. As a site owner, I want to be able to add, edit and remove products from the site easily. 
 22. As a site owner, I want access to an admin section to view and manage orders. 
 23. As a site owner, I want to be able to delete product reviews if they are unsuitable for the site. 
 24. As a site owner, I want to be able to monitor contact messages that have been submitted by site users and delete them once they have been responded to. 
 
 
+### User Stories
+Throughout the project I used the GitHub projects board to log all user stories as my project management tool. This helped me keep focus on the necesarry tasks as I would move them to the "in progress lane" as I'm working on the story. I would then move them to the "done" lane once the story has been completed.
+
+![user_story_board](documentation_assets/images/project_board.png)
+
+### Strategy Table
+Opportunity/Problem/Feature| Importance| Viability/Feasibility
+------------ | -------------------------|---------
+Display all products | 5 | 5
+Account signup | 5 | 5
+User profile | 5 | 5
+Responsive design | 5 | 5
+Contact form | 4 | 5
+Ability to create an order | 5 | 4
+Ability to update the product | 5 | 4
+Ability to cancel the product | 3 | 4
+Ability to add reviews | 5 | 4
+Ability to checkout the order | 5 | 5
+
+Total | 47 | 42
+
 ## Scope
+As I am unable to include all of the features from the strategy table. I will phase this project in multiple phases. Phase 1 will be what I have identified as a minimum viable product. Please find below the plans I have for each phase.
 
-The key features of the website were developed based on the user stories
+### Phase 1
+- Display all products
+- Allow users to register for an account
+- Allow users to create and edit a personal profile
+- Responsive design
+- Contact form
+- Ability to create  an order/product
+- Ability to update an order/product
+- Ability to cancel an order/product
 
-### For any site user: 
-- Home page, with dramatic imagery and to quickly help users understand the purpose of the site.
-- Products Page, where users can view all the products or products based on filtering criteria. 
-- Product Detail Page, detailing information about the product. From here users can read reviews from other customers and add products to their bags. 
-- Shopping Bag page, where users can see what products have been added to their bag. 
-- Checkout page, allowing users to purchase products. 
-- Confirmation page, allowing users to see a confirmation of their order. 
-- Contact Page, where users can contact the company with any queries.
-- Sign Up Page, where users can register to become a registered user. 
+### Phase 2
+- avoid users uploading/adding products
+- Avoid users editing a product
+- Contact form model, so messages are saved to the database
+- Email confirmation when a product is checked out.
+- Account email verification
 
-### For registered users: 
-All of the above plus: 
-- The bag page, where users can store products in their bag. 
-- Profile Page, where users can update their default delivery information allowing for ease at checkout. 
-- Order History, from the profile page, users can see the previous orders they have made. 
-- Product Reviews, on the product detail page, users can leave a rating and a message about a product. 
-- Log Out Page, where users can log out of their account. 
+<a name="structure"></a>
 
-### For Site Admin:
-All of the above plus: 
-- Site management page, where admin users can add products, and review contact messages from other users. 
-- Add Product / where admin can add products. 
-- Edit Product / where admin can update products. 
-- Product Reviews, admin can delete reviews from any user who has left a review. 
+## 1.2. Structure
 
-## Structure
+[Go to the top](#table-of-contents)
+
+It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
+
+- Responsive on all device sizes
+- Easy navigation through labelled buttons
+- Footer at the bottom of the index page that links to the social media website.
+- All elements will be consistent including font size, font family, colour scheme.
+
+### Database Model
+Planned database structure:
+![database_model](documentation_assets/images/database_model.png)
+
+Final database structure:
+
+```  Python
+class Product(models.Model):
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
+    name = models.CharField(max_length=254)
+    description = models.TextField()
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Comment(models.Model):
+    """ This model contains product comment information"""
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    subject = models.CharField(max_length=50, null=False, blank=False)
+    comment = models.TextField(max_length=250, null=False, blank=False)
+    rating = models.IntegerField(
+        default=1, validators=[MaxValueValidator(5), MinValueValidator(1)]
+    )
+    create_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.subject
+```
+
+<a name="skeleton"></a>
+
+## 1.3. Skeleton
+
+[Go to the top](#table-of-contents)
+
+### Wire-frames
+
+Home/Landing Page Desktop:
+![home_page_desktop](documentation_assets/wireframes/home_desktop.png)
+
+Menu Page Desktop:
+![menu_page_desktop](documentation_assets/wireframes/menu_desktop.png)
+
+Register Page Desktop:
+![register_page_desktop](documentation_assets/wireframes/register_desktop.png)
+
+Login Page Desktop:
+![login_page_desktop](documentation_assets/wireframes/login_desktop.png)
+
+User Logged In Desktop:
+![user_logged_in_desktop](documentation_assets/wireframes/user_logged_in_desktop.png)
+
+Online Booking Page Desktop:
+![online_booking_page_desktop](documentation_assets/wireframes/online_booking_desktop.png)
+
+Contact Page Desktop:
+![contact_page_desktop](documentation_assets/wireframes/contact_desktop.png)
+
+Edit Profile Page Desktop:
+![edit_profile_page_desktop](documentation_assets/wireframes/edit_profile_desktop.png)
+
+Manage Booking Page Desktop:
+![manage_booking_page_desktop](documentation_assets/wireframes/manage_booking_desktop.png)
+
+From left to right home > navigation bar > menu mobile:
+![home_navbar_menu_mobile](documentation_assets/wireframes/home_navbar_menu_mobile.png)
+
+From left to right online bookings > contact form part 1 > contact form part 2 mobile:
+![online-booking_contact-1_contact_2_mobile](documentation_assets/wireframes/online-booking_contact-1_contact-2.png)
+
+From left to right edit profile > manage bookings mobile:
+![edit-profile_manage-bookings_mobile](documentation_assets/wireframes/edit-profile_manage-bookings.png)
+
+From left to right resgister > navigation bar when user is logged in mobile:
+![register_login_logged-in-navbar_mobile](documentation_assets/wireframes/register_login_logged-in-navbar.png)
+
+<a name="surface"></a>
+
+## 1.4. Surface
+
+[Go to the top](#table-of-contents)
+
+### Colours
+
+Please find the colours schemes that I used [here](https://coolors.co/bd3c31-000000-ffffff-212529).
+
+### Typography
+
+I decided to use Be Vietnam Pro as my font of choice with sans serif as my backup font for browsers that might not support Be Vietnam Pro.
+
+The link to the font can be found [here](https://fonts.google.com/share?selection.family=Be%20Vietnam%20Pro).
+
+<a name="features"></a>
 
 ### Existing Features
 
