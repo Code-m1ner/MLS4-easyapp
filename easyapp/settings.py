@@ -27,8 +27,8 @@ SECRET_KEY = 'ztu5dhnioolk=k_oa7ga8p+v8eo1&&hk@x8hxn60wu)g*l4n*0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = 'DEVELOPMENT' in os.environ
-
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['mls4.herokuapp.com', 'localhost']
