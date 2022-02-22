@@ -63,8 +63,28 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
+    # Gets the product from the database
+    product = get_object_or_404(Product, pk=product_id)
+    # Gets the comments attached to the product from the database
+    # and order so the latest comment appears first
+    comments = Comment.objects.filter(
+        product_id=product_id).order_by('-create_at')
+    # Check to see if there are any comments and updates
+    # the product rating based on the average rating
+    if comments:
+        ratings = comments.count()
+        rating_avg = comments.aggregate(Avg('rating'))
+        rating = round(rating_avg.get('rating__avg'), 2)
+        product.rating = rating
+        product.save()
+    # if there are no ratings sets product rating to 0
+    else:
+        ratings = 0
+        rating = 0
+
     context = {
         'product': product,
+        'comments': comments,
     }
 
     return render(request, 'products/product_detail.html', context)
