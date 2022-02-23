@@ -240,19 +240,19 @@ From left to right resgister > navigation bar when user is logged in mobile:
 
 ### Colours
 
-Please find the colours schemes that I used [here](https://coolors.co/bd3c31-000000-ffffff-212529).
+I used less colours since the appearance of the site didn't require much of colouring.
 
 ### Typography
 
-I decided to use Be Vietnam Pro as my font of choice with sans serif as my backup font for browsers that might not support Be Vietnam Pro.
+I decided to use Lato as my font of choice for the whole pfoject.
 
-The link to the font can be found [here](https://fonts.google.com/share?selection.family=Be%20Vietnam%20Pro).
+The link to the font can be found [here](https://fonts.google.com/share?selection.family=Lato:wght@300&display=swap).
 
 <a name="features"></a>
 
-### Existing Features
+### Features
 
-#### Base Template
+#### All Pages
 
 - Delivery Banner - The delivery banner contains information about free delivery and the free delivery threshold. It is fixed to the bottom of the main navigation menu of the screen to allow for ease of access and improved user navigation. The links take users to different parts of the site which are as follows:
     - Unregistered user: 
@@ -268,11 +268,10 @@ The link to the font can be found [here](https://fonts.google.com/share?selectio
         - Profile
         - Log Out
 
-- Navbar Desktop - The main navbar has a centralised Tarmachan Logo, which will take users to the home page. Main site links are aligned to the left of the logo. Each of these links will open a mega menu that spans the full width of the screen, again to help aid with navigation and to avoid a large amount of scrolling with a regular dropdown. The search icon will drop down a search bar below the main nav, and the basket icon will take users to their shopping bag page. 
+- Navbar Desktop - The main navbar has a logo title of the app on the left, which will take users to the home page. Main site links are aligned to the right of the  title logo. Each of these links will open a dropdown menu once hovered on, they have submenu elements linked to them. This is to help aid with navigation by being brief and precised. The search icon has a text input that allows user to type any search query straight away, and the bag icon will take users to their shopping bag page. 
 
-- Navbar Mobile - The mobile navbar has the same logo image, search and basket links. However rather than links to the left of the logo, a collapsible side nav can be triggered by a burger menu. Scrollable dropdowns allow for all the categories and subcategories to be selected. Also on smaller devices, the delivery banner icons are removed and replaced with links within the burger menu. The height of the navbar is also reduced on smaller screen sizes to allow for more screen real estate. The navbar also sticks to the top of the screen on all devices to allow for ease of access to navigation. 
-
-- Footer - The footer is split into different sections. The first column allows all users to sign up for the tarmachan newsletter by filling in the form with their email and clicking the submit button. There is also a link to the newsletter unsubscribe page which allows users to unsubscribe from the newsletter by filling in their email address. Confirmation emails will be issued to the user whenever they either sign up or unsubscribe from the newsletter. The second column contains navigational links to take the user to product pages for master categories, clearance and all products. The third column contains navigational links to take the user to pages about the company. This column will also show Logout and profile links depending on whether the user is logged in or not. The fourth column has links to social media sites. An additional logo will take the user back to the home page. 
+- Navbar Mobile - The mobile navbar has the same logo title but this time on the top middle of the page, search and basket links. A collapsible side nav can be triggered by a burger menu. Scrollable dropdowns allow for all the categories and subcategories to be selected. Also on smaller devices. The height of the navbar is also reduced on smaller screen sizes to allow for more screen real estate. The navbar also sticks to the top of the screen on all devices to allow for ease of access to navigation. 
+ 
 
 - Toast Messages - Toast message boxes have been used throughout the site to display feedback to the user when they have made interactions with the site. These messages are colour coded to signify different message types: 
     - Green: Success
@@ -282,28 +281,23 @@ The link to the font can be found [here](https://fonts.google.com/share?selectio
 
 #### Home page
 
-- Users are greeted with a full height hero image and a quote which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages for the 3 master categories (Mens, Womens, Equipment). 
-- There are featured cards for the 4 product categories for both men's and women's clothing. On desktop devices, when a user hovers over the card images, the Men's and Women's links will show. On mobile devices when a user clicks on one of the image cards, the Men's and Women's links will show. 
-- Large featured section for clearance products advertises the current marketing strategy. The image fulfills expectations as it takes the user to all products that are currently on sale. 
-- Owl Carousel to display the 8 latest blog posts. Clicking the arrows will slide the blogs along by 1. Clicking the dots underneath will slide to the next set of blogs depending on screen size. The blogs will loop around constantly and allow for touch sliding on smart devices. 
+- Users are greeted with a full height cover image which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages depending on the category they choose, there is also an added link elements called "All Products" that redirects users to search products by category, price and rating with an added link that redirects user to all products. 
+- There are featured cards for the 4 product categories for shoes link . On desktop devices, when a user hovers over the card images, each hovered card will display the linked elements by dropdown. On mobile devices when a user clicks on one of the image cards, the links will show the elements by dropdown.  
 
 #### Products Page
 
 - There is a product counter to display how many products are being displayed depending on filtering criteria. This will also display the search term that a user has entered in the search bar. 
 - Sorting dropdown selector allows users to sort the products by various parameters. 
 - I have kept the layout of the products page similar to that of the Boutique Ado walkthrough project by displaying 4 products in a row on extra large screens, 3 on large screens, 2 on medium and small devices and 1 on extra small screen sizes. 
-- Each product card shows the product image which when hovered over will show the product description and fade the product image. When this is clicked the user is directed to the product detail page, where they can view further details about the product or add it to their shopping bag. 
-- Basic product information is displayed below the product image (product name, price, tag to the category, rating if applicable and the add to / remove from wishlist icon). I didn't want to overload the product card with too much detail. The information provided is enough to give the user an overview of the product. Products that are on sale will have a sale icon in the upper right corner of the product image to clearly identify which products are on sale to the user. 
+- Each product card shows the product image. When this is clicked the user is directed to the product detail page, where they can view further details about the product or add it to their shopping bag. 
+- Basic product information is displayed below the product image (product name, price, tag to the category, rating if applicable and the add to bagg link tag). I didn't want to overload the product card with too much detail. The information provided is enough to give the user an overview of the product.
 - As the number of products displayed on a page can be plenty some I have added a back to top button which resides in the bottom corner of the screen. I have deliberately made this quite minimalist so the focus is not drawn away from the products. 
 
 #### Product Detail Page
 
-- On larger devices the first row is split into 3 sections:
-    - Section 1: In this section, there is some basic product information as well as links to take the users to the reviews section and product details section. Admin users are also able to edit and delete products using the icons featured in this section. This section will display below section 2 (product image) on smaller devices. 
-    - Section 2: A centralised product image. On all screen sizes, the product image has a site relevant background image behind it. This gives an almost 3D quality to the image and draws the user in. 
-    - Section 3: This section is for purchasing. The user is able to select the quantity of the product they wish to purchase and select sizes (if the product has sizes). Products can be added to the bag by clicking the add to bag button. Users can return to an all products view by clicking the "Keep Shopping" button. Users are able to add and remove products to and from their wishlist by clicking the add to /remove from wishlist button. Users can also click the sizing chart link which will open a pop-out displaying relevant sizing information to the product. This can be closed using the cross in the pop up or by clicking elsewhere on the screen (larger devices only). This section will display below section 2 (product image) on smaller devices. 
-- There are two tabs below the product information, image and purchasing options:
-    - Product Details tab - This shows an extended description of the product along with product specifications. 
+- On larger devices the first row is split into 2 columns:
+    - Column 1: In this column there is a clear image of the product which allows user's attention to concentrate on the lively visible features of the product.
+    - Column 2: This column has basic product information as well as links to take the users to the reviews section. Admin users are also able to edit and delete products using the icons featured in this columns. This column will display below column 2 (product image) on smaller devices.  This section is also for purchasing. The user is able to select the quantity of the product they wish to purchase and select sizes (if the product has sizes). Products can be added to the bag by clicking the add to bag button. Users can return to an all products view by clicking the "Keep Shopping" button. Users are able to add and remove products to and from their bag by clicking the add to /remove from bag button. Users can also pick a relevant size of the product. This section will display below section 2 (product image) on smaller devices.  
     - A reviews tab allows logged in users to submit reviews, and view any reviews that have been made by other users. 
 
 #### Shopping Bag Page
@@ -335,53 +329,30 @@ The link to the font can be found [here](https://fonts.google.com/share?selectio
     - Order Summary - Gives a nice overview of each of the products that they are purchasing. Images are links that will take the user back to the product details page for that product.
 - More products link which will take the user back to the all products page encouraging the user to make more purchases. 
 
-#### About Us Page
-- Users can find out more about the company by clicking the about us link under the company dropdown (on larger devices), or within the burger menu. 
-- Users are greeted with a hero image with the company mantra about the products. 
-- The page is split into two sections - Our story where users can read about how the company was founded and Our Philosophy where users can read about the companies efforts to use responsibly sourced materials. These are split by a site relevant parallax image. 
 
 #### Contact Us Page
 - Users can find different ways to contact the company on the contact page. Details for the company address, telephone, email and opening times can be found here. 
 - The next section on this page allows users to contact the company using the form provided. Once the user submits a valid form a success message is displayed to the user to provide feedback and an email confirmation is sent to the user to let them know that we have received their query. 
 - Contact messages can be located on the site administration page (for superusers only). 
 
-#### Blog Page
-- On the Blog page, users can find snippets of all the blogs that have been uploaded to the site. The layout for this page is similar to that of the products in that on extra large devices 4 blog posts will show in a row, 3 on a large device, 2 on small and medium devices and 1 on extra small devices. 
-- Each blog card has an image relevant to the blog, some information about the user who uploaded it and the date that it was uploaded. Blogs are ordered so that the most recent blogs display first. 
-- Clicking anywhere on each blog card will take the user to the blog detail page for that blog. 
-
-#### Blog Detail Page
-- The blog detail page will appear differently for different blogs as not all fields are required to submit a blog. If all fields have been filled out it will display as follows: 
-    - Full width hero image with an image caption underneath. 
-    - Blog title, author and date the blog was uploaded followed by the first 3 paragraphs of which only the first paragraph is required. 
-    - When a second image is added this will act as the parallax image between the 3rd and 4th paragraphs and will have an image caption beneath. 
-    - Paragraphs 4-6 will then display of which only paragraph 4 is required. 
-    - When a third image is added this will act as a text break between paragraphs 6 and 7. An image caption will display below the image. 
-    - Paragraphs 7-9 will then display of which only paragraph 7 is required. 
-- I have deliberately made it that paragraphs 1, 4 and 7 are required so that there is text between each of the images. 
-- On larger devices, I have used an offset column so there is plenty of white space making the text more readable and less condensed. 
-- For regular users, there is a link to take the user back to the blogs page. 
-- For superusers, there are links to edit and delete the blog. 
-
 #### Profile Page 
 The user profile page is split into two parts: 
 - Firstly users can update their default delivery information by filling in the form and clicking the update information button allowing for easier purchasing at checkout. 
 - The second column has information about a user's past orders. Users can click on the order number to take them to the checkout success page. Going to the confirmation page from the user's profile, rather than a keep shopping link there is a link for the user to take them back to their profile. A message to inform the user that this is a past order confirmation is displayed to avoid confusion. 
 
-#### User Wishlist Page
-- This page will only be accessible to logged in users. If a user has not added any products to their wishlist then the user will be informed of this and a link to the all products page will be displayed. 
-- When a user has added products to their wishlist they will be displayed here in the same format as the products page. Users will have all the same functionality as the products page from here. 
+#### User Bag Page
+- This page is accessible to all users. If a user has not added any products to their bag then the user will be informed of this and a link to the all products page will be displayed. 
+- When a user has added products to their bag they will be displayed here in the same format as the products page. Users will have all the same functionality as the products page from here. 
 
 ### Allauth features
 - The sign up, register, password reset, email confirmation pages etc, have all been provided by Django allauth and formatted to suit the needs of the site. 
 
 ### Admin Features
 
-- Admin will have access to additional features across the site. Firstly admin members will have an additional icon in the delivery banner (on larger devices) or link in the burger menu (on smaller devices) to take the user to the site admin page. Here the admin user will have access to:
+- Admin will have access to additional features across the site. Firstly admin members will have an additional link in the my account icon (on larger devices) and (on smaller devices) to take the user to the site admin page. Here the admin user will have access to:
     - Add a product page link - This will take the admin user to the add product page. Here the user can fill in the form to add a product to the site. Once added the admin user will be taken to the product detail page for the product added. 
-    - Add a blog link - This will take the admin user to the add blog page. Here the user can fill in the form to add a blog to the site. Once added the admin user will be taken to the blog detail page for the blog added. 
     - Manage Contact Messages - This will take the admin user to the contact management page. Here admin users will be displayed with all the queries that have been submitted by other users. Admin users can view details of these messages by clicking on the name in the table. On both the contact management page and the contact detail page admin users can delete the messages once they have responded to the user. This will trigger a modal to make sure the user is happy to delete the message. 
-- On the product page and product detail page admin users will have access to the edit and delete product icons. The edit icon will take the user to the edit product form, where they can make changes to a product (i.e put in the clearance category). The delete icon will trigger a modal to make sure the user wishes to delete the product and avoid accidental deletions. 
+- On the product page and product detail page admin users will have access to the edit and delete product links. The edit link will take the user to the edit product form, where they can make changes to a product (i.e put in the clearance category). The delete icon will trigger a modal to make sure the user wishes to delete the product and avoid accidental deletions. 
 
     
 
@@ -392,180 +363,7 @@ The user profile page is split into two parts:
 - Social Media signup options. 
 - Additional payment options such as Apple Pay or Paypal for ease of purchasing. 
 
-
-## Skeleton
-
-Below you can find the links for my wireframes, showing how I would like the pages to be structured, and how the site will appear on different device sizes. 
-
-The wireframes have been created using Balsamiq and show for Desktop, iPad and iPhone. 
-
-- Home Page
-    - [Desktop](documentation/wireframes/home-page/home-page-desktop-r.png)
-    - [iPad](documentation/wireframes/home-page/home-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/home-page/home-page-iphone-r.png)
-- All Products Page
-    - [Desktop](documentation/wireframes/all-products-page/all-products-page-desktop-r.png)
-    - [iPad](documentation/wireframes/all-products-page/all-products-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/all-products-page/all-products-page-iphone-r.png)
-- View Product Page
-    - [Desktop](documentation/wireframes/view-product-page/product-page-desktop-r.png)
-    - [iPad](documentation/wireframes/view-product-page/product-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/view-product-page/product-page-iphone-r.png)
-- Basket Page
-    - [Desktop](documentation/wireframes/basket-page/basket-page-desktop-r.png)
-    - [iPad](documentation/wireframes/basket-page/basket-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/basket-page/basket-page-iphone-r.png)
-- Checkout Page
-    - [Desktop](documentation/wireframes/checkout-page/checkout-page-desktop-r.png)
-    - [iPad](documentation/wireframes/checkout-page/checkout-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/checkout-page/checkout-page-iphone-r.png)
-- Confirmation Page
-    - [Desktop](documentation/wireframes/confirmation-page/confirmation-page-desktop-r.png)
-    - [iPad](documentation/wireframes/confirmation-page/confirmation-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/confirmation-page/confirmation-page-iphone-r.png)
-- About Us Page
-    - [Desktop](documentation/wireframes/about-us-page/about-us-desktop-r.png)
-    - [iPad](documentation/wireframes/about-us-page/about-us-ipad-r.png)
-    - [iPhone](documentation/wireframes/about-us-page/about-us-iphone-r.png)
-- Contact Us Page
-    - [Desktop](documentation/wireframes/contact-us-page/contact-us-desktop-r.png)
-    - [iPad](documentation/wireframes/contact-us-page/contact-us-ipad-r.png)
-    - [iPhone](documentation/wireframes/contact-us-page/contact-us-iphone-r.png)
-- Blog Page
-    - [Desktop](documentation/wireframes/blog-page/blog-page-desktop-r.png)
-    - [iPad](documentation/wireframes/blog-page/blog-page-ipad-r.png)
-    - [iPhone](documentation/wireframes/blog-page/blog-page-iphone-r.png)
-- Blog Story Page
-    - [Desktop](documentation/wireframes/blog-story-page/blog-story-desktop-r.png)
-    - [iPad](documentation/wireframes/blog-story-page/blog-story-ipad-r.png)
-    - [iPhone](documentation/wireframes/blog-story-page/blog-story-iphone-r.png)
-
-### Wireframe Review
-
-The final site has stayed relatively true to the wireframes created from the outset. Additional pages have been added throughout the project such as the wishlist which is almost identical to the products page, a site management page, a newsletter unsubscribe page and the respective add / edit blog and product pages. 
-
-## Surface
-
-### Design
-
-#### Colour Scheme
-
-- Inspiration for my colour scheme has been taken from [Rab's website](https://rab.equipment/uk/mens/fleece-midlayer). I've decided to go for a slighter darker green to allow further contrast for the white text. As Tarmachan is an outdoors store this colour choice reflects the link between products sold and the Scottish countryside. 
-
-- From there I have used complementary shades of green to create a softer palette highlighting different sections of the site. 
-
-- I have decided to use a white background throughout the majority of the site. This is to keep the visual design clean and means the emphasis is on the products and imagery to bring vibrance to the site. This design follows that of similar Mountain equipment retailers such as [Rab](https://rab.equipment/uk/mens/fleece-midlayer), [North Face](https://www.thenorthface.co.uk/) and [Mountain Equipment](https://www.mountain-equipment.co.uk/). 
-
-![Chosen Colour Scheme](documentation/colour-scheme/colour_scheme.png)
-
-- (#002929) - Used for Delivery Banner and footer credits
-- (#003838) - Used accross the site, primarily seen in the footer, on buttons, tooltips, color text etc.
-- (#177373) - Used on product details tabs, icons and stars. 
-- (#ffffff) - Used throughout the site as a background, and white text. 
-
-
-#### Additional Colours Used
-
-- (#0DCAF0) - Used for information toasts
-- (#198754) - Used for success toasts
-- (#FFC107) - Used for warning toasts
-- (#DC3545) - Used for danger toasts and delete icons
-- (#1b7945) - Used for discount text
-- (#AAB7C4) - Used a placeholder text colour
-- (#CCCCCC) - Used for unchecked stars
-- (#B1B1B1) - Used for Box shadows
-
-#### Typography
-
-- I have used Cantata One as the logo font which has been used throughout the whole site. This was dictated when deciding what font to use on the products themselves. I wanted a font that was bold yet readable and looked uniform when it's formatted to be uppercase. The same font has therefore been used for headings, subheadings and some buttons. 
-
-![Cantata One](documentation/typography/cantata.png)
-
-- I have used Crimson Text throughout the rest of the site for longer passages of text and paragraph use. Two font weights have been used to allow for emphasise at certain points on the site. This text is the same text used on the [Mountain Equipment](https://www.mountain-equipment.co.uk/) which was used as an inspiration for my site. 
-
-![Crimson Text](documentation/typography/crimson.png)
-
-#### Imagery
-
-- Due to the nature of the products sold I have had to rely on other retailer's products and modify them for use on my site. For the most part product images have come from [Mountain Equipment](https://www.mountain-equipment.co.uk/) and other online retailers (credited in the credits section).
-
-- I have used a hero image on the home page to the give the site a dramatic appearance. Category images have been used for the featured products section on the home page to give a visual representation of what the companies products are intended for. Parallax images and product detail background images are in keeping with the company name. 
-
-- Image credits can be found in the credit section of the README.
-
-#### Icons
-
-- I've made use of icons in various sections on the site. They have been used for navigation (on larger devices), social media links, wishlist, product tags and stars. All icons have been obtained from FontAwesome. 
-
-# Information Architecture
-
-## Database
-
-- SQLite relational database management system (pre-installed with Django) has been used in development to store the data for this project. 
-- PostgreSQL relational database management system has been used in production. 
-- Note: The user model is provided by [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html).
-
-## Data Model
-
-The following Entity-Relationship diagram shows the relationships between the models. 
-
-![DBDiagram](documentation/data-model/database_model.png)
-
-### Blog App
-- Blog Model
-    - Contains the details of the blog post and is linked to the User model by the 'author' field. 
-
-### Checkout App
-- Order Model
-    - Contains details of the user's orders, their delivery details, and the items they've ordered. It is linked to the UserProfile Model by the 'user_profile' field
-
-- OrderLineItem Model
-    - Contains details for the customer order, quantity and product total. It is linked to the Order Model by the 'order' field and the Product Model by the 'product field'.
-### Products App
-- MasterCategory
-    - Contains Master Categories options for products. It is linked to the Product Model using a foreign key.
-
-- ProductCategory
-    - Contains Product Categories options for products. It is linked to the Product Model using a foreign key.
-
-- ProductSubCategory
-    - Contains Product Sub Categories options for products. It is linked to the Product Model using a foreign key.
-
-- Clearance
-    - Contains clearance options for products. Currently only 2 options, but further options could be added such as "Limited time offer" etc. It is linked to the Product Model using a foreign key.
-
-- Product
-    - Contains detailed product information for each product. 
-
-- Comment
-    - Contains the review information for each product. It is linked to the Product Model by the 'product' field and the User Model by the 'user' field. The rating field also updates the product rating each time a review is left. 
-### Contact App
-- NewsletterSubscription
-    - Contains the email of users who have signed up to the newsletter
-- Contact
-    - Contains the details of users and their queries from the contact form. 
-### Profiles App
-- UserProfile
-    - Contains the user's details for future orders. 
-### Wishlist App
-- user_wishlist
-    - Although this is not a Model, I have built a one-to-one link between the User Model and Product Model, which creates a "link table" allowing a user to add products to their wishlist. 
-### Django Allauth
-- User
-    - The User model is provided by default from Django Allauth and contains the username, email, and password for each user. 
-
-### Fixtures
-
-Fixtures were created for the following:
-- MasterCategory
-- ProductCategory
-- ProductSubCategory
-- Clearance
-- Product
-
-Using JSON files enabled the large amount of product and category data to be loaded easily into both the database in development and the database in production. 
-
-# Technologies Used
+# 3 Technologies Used
 
 ## Languages Used
 
@@ -622,454 +420,385 @@ Using JSON files enabled the large amount of product and category data to be loa
 - [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
     - This has been used for the home page carousel for the blogs.
 
-# Testing
+# 4. Testing
 
-All testing carried out on the website can be found in the following file: 
+[Go to the top](#table-of-contents)
 
-## [TESTING.md](TESTING.md)
+### Google Developer Tools
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would try to see if I can implement the styling with bootstrap, if I could not replicate the styling I would copy the CSS from google and paste it into my CSS stylesheet. This allows me to keep track of the code I am using.
 
-# Deployment
+I also checked the accessibility of the page using lighthouse.
+![google_lighthouse](documentation_assets/images/google_lighthouse.png)
 
-## Local Deployment
+### Responsive Tools
+I used [Am I Responsive](http://ami.responsivedesign.is) to make sure that all my pages are responsive to all devices.
 
-Before deploying the project there are some requirements to be set up first.
+### W3C Validator Tools
+#### HTML:
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within the HTML pages.
 
-First ensure the following are set up on your chosen IDE:
-- [PIP3](https://pypi.org/project/pip/) Python package installer. 
-- [Python 3.6](https://www.python.org/downloads/release/python-360/) or higher.
-- [Git](https://git-scm.com/) version control.
+I had an error on the base.html template:
+![base.html_error](documentation_assets/images/base.html_error.png)
 
-Secondly you will need an account with Stripe in order to allow for online purchasing.
+This was then rectified by adding the lang attribute to the current HTML tag and deleting the other one.
+![base.html_fix](documentation_assets/images/base.html_fix.png)
 
-To set the project up locally you can follow the following steps: 
+I had an error on the contact.html template:
+![contact.html_error](documentation_assets/images/contact.html_error.png)
 
-1. Navigate to the repository - [Tarmachan Repo](https://github.com/Tawnygoody/Tarmachan)
+This was then rectified by removing the width styling of 100% and replacing it with a class="w-100".
+![contact.html_fix](documentation_assets/images/contact.html_fix.png)
 
-2. Click the code dropdown button, ensure the HTTPS tab is selected in the dropdown and copy the url. 
+#### CSS:
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
 
-3. In your IDE navigate to the desired directory. 
+I had no errors in my CSS file:
+![css_validation](documentation_assets/images/css_validation.png)
 
-4. Open the terminal and enter the following code: 
-    - ```
-        git clone https://github.com/Tawnygoody/Tarmachan.git
-        ```
+### JavaScript:
+I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript script tags. JS Hint showed warnings on line 1 which was missing a semicolon, however as this was for the script tag I have ignored it. This piece of JavaScript was along copied and pasted from an external source therefore, I have not made any changes to the code.
 
-Note: Alternatively you can select the "Download Zip" option from the dropdown menu, and extract the zip file to your chosen directory within your IDE. 
+I had no errors in my JavaScript files:
+![javascript_validation](documentation_assets/images/javascript_validation.png)
 
-5. To install the required dependencies needed to run the application type the following into the terminal: 
-    - ```
-        pip3 install -r requirements.txt
-        ```
+### Python:
+I used [PEP8 online](http://pep8online.com/) to check for any errors within my Python files. The validator showed multiple "line too long" errors. This was rectified by adding each statement as a new line.
 
-6. Environment variables will then need to be set up. This can be done in a couple of ways: 
-    1. Create an env.py file in the root directory, and ensure that it is added to the .gitignore file so that secret keys aren't published to github. Add to the following code to the the env.py file:
-        - ```
-            import os
-            os.enviorn["DEVELOPMENT"] = True
-            os.environ["SECRET_KEY"] = "Your Secret Key"
-            os.environ["STRIPE_PUBLIC_KEY"] = "Your Stripe Public Key"
-            os.environ["STRIPE_SECRET_KEY"] = "Your Stripe Secret Key"
-            os.environ["STRIPE_WH_SECRET"] = "Your Stripe WH Secret Key"
-            ```
-    
-    2. Set the environment variables with your IDE settings (if available):
-        - |  Key  |  Value  |
-          |-----| ----- |
-          | DEVELOPMENT | True |
-          | SECRET_KEY | Your Secret Key |
-          | STRIPE_PUBLIC_KEY | Your Stripe Public Key |
-          | STRIPE_SECRET_KEY | Your Stripe Secret Key |
-          | STRIPE_WH_SECRET | Your Stripe WH Secret Key |
+urls.py errors:
+![urls_errors](documentation_assets/images/urls_errors.png)
 
-    - Your stripe variables can be located on your stripe dashboard. 
-    - You can generate a secret key at [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/)
+Fixed urls.py validation:
+![urls_fixed_errors](documentation_assets/images/urls_fixed_errors.png)
 
-7. To set up the database you will need to migrate the database models. To do so type the following into the terminal: 
-    - ```
-        python3 manage.py makemigrations
-        python3 manage.py migrate
-        ```
+There were also "line too long" errors within my settings.py file but I have chosen to ignore these as this is a very important file.
 
-8. To load the product fixtures into the database type the following into the terminal:
-    - ```
-        python3 manage.py loaddata master_category
-        python3 manage.py loaddata product_category
-        python3 manage.py loaddata product_sub_category
-        python3 manage.py loaddata clearance
-        python3 manage.py loaddata products
-        ```
+settings.py errors:
+![settings_errors](documentation_assets/images/settings_errors.png)
 
-9. Create a superuser to have access to the django admin section by typing the following: 
-    - ```
-        python3 manage.py createsuperuser
-        ```
-    - Follow the commands in the terminal for the superuser details. 
+## Manual Testing
+I have tested my site on Safari and google chrome on multiple devices.
 
-10. You will then be able to run the app locally using the following command: 
-    - ```
-        python3 manage.py runserver
-        ```
+These include:
+-   iPhone X
+-   iPhone XS Max
+-   iPad Pro
+-   MacBook Pro
 
+Please find below my testing process for all pages via mobile and web:
 
-## Deployment to Heroku
+### Navigation Bar
 
-1. Create a Heroku app: 
-    - Navigate to [Heroku](https://www.heroku.com/) and log in or sign up. 
-    - From the dashboard click on new app and give the app a name and choose the region closest to you. 
-    - On the resources tab provision a new postgres database by typing in heroku postgres.
-2. To use Postgres dj_database_url & psycopg2 need to be installed. 
-    - In the terminal type the following commands:
-        - ```
-            pip3 install dj_database_url
-            ```
-        - ```
-            pip3 install psycopg2-binary
-            ```
-3. Make sure Heroku installs all our apps requirements when we deploy it using the following command in the terminal:
-    - ```
-        pip3 freeze > requirements.txt
-        ```
-4. To setup the websites new database navigate to settings.py import dj_database_url & comment out the default database configuration and replace the default database with a call to dj_database_url.parse. 
-    - ```
-        import dj_database_url
-        DATABASES = {
-            'default': dj_database_url.parse("your Postgres database URL in heroku")
-        }
-        ```
-5. We need to run all migrations to the new Postgres database by entering the following in the terminal:
-    - ```
-        python3 manage.py migrate
-        ```
-6. We need to load the product data from the fixtures file into the new database: 
-    - ```
-        python3 manage.py loaddata master_categories
-        python3 manage.py loaddata product_categories
-        python3 manage.py loaddata product_sub_categories
-        python3 manage.py loaddata clearance
-        python3 manage.py loaddata products
-        ```
-7. A superuser was created with admin rights by typing the following into the terminal:
-    - ```
-        python3 manage.py createsuperuser
-        ```
-    - Follow the commands in the terminal for Username, email address and password
-8. Add an if statement in settings.py for the default database, so that if the app is running on Heroku it connects to the Postgres database, otherwise the app connects to the SQLite3 database: 
-    - ```
-        if 'DATABASE_URL' in os.environ:
-            DATABASES = {
-                'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-            }
-        else:
-            DATABASES = {
-                'default': {
-                    'ENGINE': 'django.db.backends.sqlite3',
-                    'NAME': BASE_DIR / 'db.sqlite3',
-                }
-            }
-        ```
-9. Gunicorn (Python WSGI HTTP Server for UNIX) will act as our webserver. To install it type the following into the terminal:
-    - ```
-        pip3 install gunicorn
-        ```
-    - Freeze that into the requirments file using: 
-        - ```
-            pip3 freeze > requirements.txt
-            ```
-10. Create a procfile in the root directory, to tell Heroku to create a web dyno, which will run gunicorn and serve the Django app. Type the following into the procfile: 
-    - ```
-        web: gunicorn tarmachan.wsgi:application
-        ```
-11. After logging in to Heroku at the command line we need to temporarily disable collectstatic so Heroku won't try to collect static files when deployed: 
-    - ```
-        heroku login -i
-        heroku config:set DISABLE_COLLECTSTATIC=1 --app "app name goes here"
-        ```
-12. In settings.py we need to add the hostname of our Heroku app, and allow localhost so gitpod will still work too: 
-    - ```
-        ALLOWED_HOSTS = ['"app name goes here".herokuapp.com', 'localhost']
-        ```
-13. To deploy to Heroku type the following into the command line: 
-    - ```
-        heroku git:remote -a "app name goes here"
-        git push heroku master
-        ```
-14. To set up automatic deployments when we push the code to github, in Heroku:
-    - On the deploy tab set the app to connect to github by searching for the repository and clicking connect.
-    - Click 'Enable Automatic Deploys" 
-15. Using [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) add the secret key to the config variables under the settings tab, which will act as the key for the Heroku app. 
-    - We need to update the settings.py file so that the secret key is collected from the environment, and use an empty string as default: 
-        - ```
-            SECRET_KEY = os.environ.get('SECRET_KEY', '')
-            ```
-    - Additionally set the debug to be true only if there's a variable called "DEVELOPMENT" in the environment. 
-        - ```
-            DEBUG = 'DEVELOPMENT' in os.environ
-            ```
+All Pages:
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Home page | When clicking the "home" button in the navigation bar, the browser redirects me to the home page. The is active styling will appear as the home button has a red background. | PASS
+Menu page | When clicking the "menu" button in the navigation bar, the browser redirects me to the menu page. The is active styling will appear as the menu button has a red background. | PASS
+Contact page | When clicking the "contact" button in the navigation bar, the browser redirects me to the contact page. The is active styling will appear as the contact button has a red background. | PASS
+Book now page | When clicking the "book now" button in the navigation bar, the browser redirects me to the book now page. The is active styling will appear as the book now button has a red background.| PASS
+Manage booking page | When clicking the "manage bookings" button in the navigation bar, the browser redirects me to the manage booking page. The user will know they are on this page by the heading. | PASS
+Edit profile page | Checked foreground information is not distracted by backgrounds| PASS
+Register page | When clicking the "register" button in the navigation bar, the browser redirects me to the register page. The user will know they are on this page by the heading. | PASS
+Login / Logout page | When clicking the "login" or "logout button in the navigation bar, the browser redirects me to the login or logout page. The user will know they are on this page by the heading. | PASS
+Foreground & background colour | Checked foreground information is not distracted by background animation. | PASS
+Text | Checked that all fonts and colours used are consistent. | PASS
 
-## Storing static files with AWS
+### Footer
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Facebook | When clicking the Facebook icon, a new tab opens and redirects to the Facebook website. | PASS
+Twitter | When clicking the Twitter icon, a new tab opens and redirects to the Twitter website. | PASS
+Instagram | When clicking the Instagram icon, a new tab opens and redirects to the Instagram website. | PASS
 
-### Creating a New Bucket
+### Home page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on the page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
-1. Navigate to [Amazon AWS](https://aws.amazon.com/) and log in or sign up. 
-2. From the AWS Management Console search for S3 in the services menu. 
-3. Click the "create bucket" button and enter the following information:
-    - Bucket Name: recommended to be the same name as the Heroku App. 
-    - Region: enter the region that is closest to you.
-    - Uncheck the "Block all public access" checkbox and acknowledge that the Bucket will be public.
-    - Click the "Create bucket" button to create the bucket. 
-4. Set some settings by clicking on the bucket that appears: 
-    - Click the properties tab and turn on static website hosting, which gives a new endpoint to access the bucket from the internet. 
-    - Click the properties tab to make 3 changes:
-        1. Set the CORS configuration to: 
-            - ```
-                [
-                    {
-                        "AllowedHeaders": [
-                            "Authorization"
-                        ],
-                        "AllowedMethods": [
-                            "GET"
-                        ],
-                        "AllowedOrigins": [
-                            "*"
-                        ],
-                        "ExposeHeaders": []
-                    }
-                ]
-                ```
-        2. Create a Security Policy for this Bucket using AWS S3 Bucket Policy generator located in the Bucket Policy tab:
-            - Select the following options:
-                - Policy Type: "S3 Bucket Policy"
-                - Principal: Allow all principals using "*"
-                - Actions: select "GetObject"
-                - ARN: Copy the ARN from the permissions tab
-            - Once the policy is generated copy the JSON document into the Bucket Policy editor. 
-            - Before saving add a "/*" to the end of the resource key to allow access to all resources in this bucket.
-            - Click the "Save" button. 
-        3. Access the "Access Control List" tab, in the "Permissions" tab, and set the list objects permission for everyone under the "Public Access" section.
+![index_google_lighthouse](documentation_assets/images/index_google_lighthouse.png)
 
-### Creating AWS Groups, Policies and Users
+### Menu page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Book now button | When clicking the book now button on the page, the browser redirects to the booking page. | PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
-1. From the services menu search for IAM.
-2. From the Access Management dropdown select 'User Groups'. 
-    - Click the 'Create New Group" button:
-        - Group name: Site relevant name. In this case "manage-tarmachan"
-        - Click next through to create group. 
-3. From the Access Management dropdown select 'Policies'
-    - Click the 'Create Policy' button: 
-        - Go to the JSOn tab and click 'import managed policy':
-            - Search for S3 then select 'AmazonS3FullAccess' and click "import".
-        - Get the ARN from the S3 bucket policy page and paste it in the "Resource" field as a list. Ensure two ARN's are added one for the bucket itself and another for all files and folders in the bucket (denoted by "/*" at the end of the string): 
-            - ```
-                {
-                    "Version": "2012-10-17",
-                    "Statement": [
-                        {
-                            "Effect": "Allow",
-                            "Action": [
-                                "s3:*",
-                                "s3-object-lambda:*"
-                            ],
-                            "Resource": [
-                                "arn:aws:s3:::tarmachan",
-                                "arn:aws:s3:::tarmachan/*"
-                            ]
-                        }
-                    ]
-                }
-                ```
-        - Click the "Review Policy" button and give the policy a name and description and click the "create policy" button.
-4. To attach the policy to the relevant group go back to the "User Groups" page:
-    - Click the group you want to attach the policy to. 
-    - Click "Attach Policy" 
-    - Search for the policy that has been created and click the "Attach Policy" button.
-5. From the Access Management dropdown click Users: 
-    - Click the "Add User" button: 
-        - Enter a user name and select the "Programmatic access' checkbox and select next: 
-            - On the next page add the user to the group that was created and click through to create the user. 
-        - Once the user is added download the CSV file which will contain the user's access key and secret access key, which will be used to authenticate the user from the Django App. 
+![menu_google_lighthouse](documentation_assets/images/menu_google_lighthouse.png)
 
-### Connecting Django to S3
+### Contact page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Book now button | When clicking the book now button on the page, the browser redirects to the booking page. | PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Contact Form | Checked the form submits only when all fields are filled out. | PASS
 
-1. In order to connect the S3 bucket to django two new packages are required: 
-    - ```
-        pip3 install boto3
-        ```
-    - ```
-        pip3 install django_storages
-        ```
-    - Add the new dependencies to the requirements with the following: 
-        - ```
-            pip3 freeze > requirements.txt
-            ```
-    - Add Django-storages to the list of INSTALLED_APPS in the settings.py file: 
-        - ```
-            INSTALLED_APPS = [
-                'django.contrib.admin',
-                'django.contrib.auth',
-                'django.contrib.contenttypes',
-                'django.contrib.sessions',
-                'django.contrib.messages',
-                'django.contrib.staticfiles',
-                'django.contrib.sites',
-                'allauth',
-                'allauth.account',
-                'allauth.socialaccount',
-                'home',
-                'products',
-                'bag',
-                'checkout',
-                'blog',
-                'profiles',
-                'wishlist',
-                'contact',
+![contact_google_lighthouse](documentation_assets/images/contact_google_lighthouse.png)
 
-                # Other
-                'crispy_forms',
-                'storages',
-            ]
-            ```
-2. To connect Django to S3 we need to update the settings.py file to tell Django which bucket it should be communicating with. We only want to this in the Heroku, so we can add an if statement to check if theres an environment variable called USE_AWS in the environment. 
-    - ```
-        if 'USE_AWS' in os.environ:
-            AWS_STORAGE_BUCKET_NAME = 'tarmachan'
-            AWS_S3_REGION_NAME = 'eu-west-1'
-            AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-            AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-            AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-        ```
-    - In Heroku we need to update the config variables: 
-        - |  Key  |  Value  |
-          |-----| ----- |
-          | USE_AWS | True |
-          | AWS_ACCESS_KEY_ID | Found in the CSV file when creating a user in IAM |
-          | AWS_SECRET_ACCESS_KEY | Found in the CSV file when creating a user in IAM |
-        - We need to remove the DISABLE_COLLECTSTATIC variable as django will now collect static files and upload them to S3. 
-3. COLLECTSTATIC was renabled so that in production Django uses S3 to store static files and uploads new product and blog images to the bucket:
-    - To do so create a new file in the root directory called 'custom_storages.py':
-        - ```
-            from django.conf import settings
-            from storages.backends.s3boto3 import S3Boto3Storage
+### Booking page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Book now button | When clicking the book now button on the page, the browser redirects to the booking page. | PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Booking Form | Checked the form submits only when all required fields are filled out. | PASS
+If not signed in | Checked to see if the user has not signed in the booking form should not show and a message displays prompting the user to signup/sign-in first. | PASS
+
+![booking_google_lighthouse](documentation_assets/images/booking_google_lighthouse.png)
+
+### Edit booking page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Edit Booking Form | Checked the form submits only when all required fields are filled out. | PASS
+Form validation | Checked that the telephone number input only allows number input and not any text | PASS
+
+![edit_booking_google_lighthouse](documentation_assets/images/edit_booking_google_lighthouse.png)
+
+### Manage booking page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Edit booking button | Checked that the button redirects to the edit booking page with the correct booking instance. | PASS
+Cancel booking button | Checked that the button redirects to the cancel booking page with the correct booking instance. | PASS
+
+![manage_booking_google_lighthouse](documentation_assets/images/manage_booking_google_lighthouse.png)
+
+### Create profile page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Create profile form | Checked the form submits only when all required fields are filled out. | PASS
+If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
+Form validation | Checked that the telephone number input only allows number input and not any text | PASS
+
+![create_profile_validation](documentation_assets/images/create_profile_input_validation.png)
+![create_profile_google_lighthouse](documentation_assets/images/create_profile_google_lighthouse.png)
 
 
-            class StaticStorage(S3Boto3Storage):
-                location = settings.STATICFILES_LOCATION
+### Edit profile page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Edit profile form | Checked the form submits only when all required fields are filled out. | PASS
+Form validation | Checked that the telephone number input only allows number input and not any text | PASS
+If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
+
+![edit_profile_google_lighthouse](documentation_assets/images/edit_profile_google_lighthouse.png)
+
+### Register page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Register form | Checked the form submits only when all required fields are filled out. | PASS
+Sign in link | Checked the sign-in link redirects to the sign-in page. | PASS
+
+![signup_google_lighthouse](documentation_assets/images/sign_up_google_lighthouse.png)
+
+### Sign in page
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
+Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
+Accessibility | Checked the accessibility of the page using lighthouse| PASS
+Sign in form | Checked the form submits only when all required fields are filled out. | PASS
+Signup link | Checked the signup link redirects to the signup page. | PASS
+
+![sign_in_google_lighthouse](documentation_assets/images/sign_in_google_lighthouse.png)
 
 
-            class MediaStorage(S3Boto3Storage):
-                location = settings.MEDIAFILES_LOCATION
-            ```
-    - In settings.py these new storage classes were attached to new variables within the 'USE_AWS' block, so that in production static files are saved in a folder called 'static' and media files are saved in the folder called 'media'. URL's for media and static files have been overwritten using the custom domain and new locations:
-        - ```
-            if 'USE_AWS' in os.environ:
-                # Bucket Config
-                AWS_STORAGE_BUCKET_NAME = 'tarmachan'
-                AWS_S3_REGION_NAME = 'eu-west-1'
-                AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-                AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-                AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+<a name="development-cycle"></a>
 
-                # Static and media files
-                STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-                STATICFILES_LOCATION = 'static'
-                DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
-                MEDIAFILES_LOCATION = 'media'
+# 5. Development Cycle
 
-                # Override static and media URL's in production
-                STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
-                MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-            ```
-    - To improve performance for our end users we can tell the browser that it's okay to cache static files for a long time since they don't change very often: 
-        - Inside the 'USE_AWS' code block: 
-            - ```
-                # Cache Control
-                AWS_S3_OBJECT_PARAMETERS = {
-                    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-                    'CacheControl': 'max-age=94608000',
-                }
-                ```
-4. In the S3 bucket create a new folder called 'media'. 
-    - Inside the media folder click upload -> add files and select all the product, blog and site images:
-        - Select 'Grant public read access to these objects' before clicking through to 'upload'. 
+[Go to the top](#table-of-contents)
 
-## Connecting Stripe to Heroku
+## Project Checklist
+- Install Django and the supporting libraries
+    -  Install Django and Gunicorn. Gunicorn is the server I am using to run Django on Heroku.
+    - Install support libraries including psycopg2, this is used to connect the PostgreSQL database
+    - Install Cloudinary libraries, this is a host provider service that stores images
+    - Create the requirements.txt file. This includes the project's dependencies allowing us to run the project in Heroku.
 
-1. Log in to [Stripe](https://stripe.com/gb) 
-2. From the dashboard go to "developer" and select API Keys. Copy the publishable and secret keys and add them as config variables in Heroku:
-    - |  Key  |  Value  |
-      |-----| ----- |
-      | STRIPE_PUBLIC_KEY | From Stripe |
-      | STRIPE_SECRET_KEY | From Stripe |
-3. Add a new webhook endpoint by clicking webhooks in the developers menu on stripe and clicking the "add endpoint" button: 
-    - Add the endpoint as the URL for the heroku app followed by "checkout/wh/", and set up to receive all events: 
-        - ```
-            https://tarmachan.herokuapp.com/checkout/wh/
-            ```
-4. Copy the signing secret for the new webhook and add it to the heroku config variables: 
-    - |  Key  |  Value  |
-      |-----| ----- |
-      | STRIPE_WH_SECRET | From Stripe |
+- Create a new, blank Django Project
+    - Create a new project
+    - Create the app
+    - Add restaurant_booking to the installed apps in settings.py
+    - Migrate all new changes to the database
+    - Run the server to test
 
+- Setup project to use Cloudinary and PostgreSQL
+    - Create new Heroku app
+        - Sign into Heroku
+        - Select New
+        - Select create new app
+        - Enter a relevant app name
+        - Select appropriate region
+        - Select the create app button
 
-# Credits
+    - Attach PostgreSQL database
+        - In Heroku go to resources
+        - Search for Postgres in the add-ons box
+        - Select Heroku Postgres
+        - Submit order form
 
-## Code
+    - Prepare the environment and settings.py file
+        - Create env.py file
+        - Add DATABASE_URL with the Postgres URL from Heroku
+        - Add SECRET_KEY with a randomly generated key
+        - Add SECRET_KEY and generated key to the config vars in Heroku
+        - Add if statement to settings.py to prevent the production server from erroring
+        - Replace insecure key with the environment variable for the SECRET_KEY
+        - Add Heroku database as the back end
+        - Migrate changes to new database
 
-|  #  |  Source  | Description
-|:---:| ------- | --------------- |
-| 01 | [Code Institute Boutique Ado Walkthrough](https://codeinstitute.net/) | Code institutes Boutique Ado app provided the building blocks for the project and was used as a primary resource |
-| 02 | [Stack Overflow](https://stackoverflow.com/questions/27456919/triggering-a-transition-of-a-element-when-hovered-on-another-element/27457228) | Helped to be able to fade in the buttons on the featured products cards (home page) when hovering over the cards themselves |
-| 03 | [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) | Helped to get the description as an image overlay on the product cards |
-| 04 | [Stack Overflow](https://stackoverflow.com/questions/42441574/passing-information-to-modal-in-for-loop) | Allowed the correct information to passed to the delete modals within a template for loop | 
-| 05 | [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) | Built in package to allow the carousel on the home page to function |
-| 06 | [Stack Overflow](https://stackoverflow.com/questions/54335384/django-testcase-on-form-validation-fails-even-tough-input-is-valid) | I was having issue testing the views when posting a form with a primary key as one of its fields. This provided the solution |
-| 07 | [Very Academy](https://www.youtube.com/watch?v=OgA0TTKAtqQ) | Helped with setting up the wishlist app and allowing users to add and remove products from their wishlist |
-| 08 | [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax) | Provided the base styling for the parallax images |
-| 09 | [Stack Overflow](https://stackoverflow.com/questions/21240465/alternatives-to-background-attachment-fixed) | Aided with the styling for parallax image and replaces "background-attachment:fixed;", which was previously used. This is noted in Solved Bugs in the TESTING.md file |
-| 10 | [Yuksel Celik](https://www.youtube.com/watch?v=OvTs8BMLb7o) | This tutorial has been utilised to allow comments to be added and deleted for each product |
-| 11 | [MDN Webdocs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing) | Helped with the set up class for the checkout test_views.py |
-| 12 | [WEB CIFAR](https://www.youtube.com/watch?v=_oVBA15MdoI) | This tutorial has been utilised for the sizing chart pop up on the product detail page. |
-| 13 | [CSS Tricks](https://css-tricks.com/line-clampin/) | Aided with the line clamping for the blog cards on the main blog page |
+    - Get static media files stored on Cloudinary
+        - Create a Cloudinary account
+        - From the dashboard, copy the API Environment variable
+        - In the settings.py file create a new environment variable for CLOUDINARY_URL
+        - Add the CLOUDINARY_URL variable to Heroku
+        - Add a temporary config var for DISABLE_COLLECTSTATIC
+        - In settings.py add Cloudinary as an installed app
+        - Add static and media file variables
+        - Add templates directory
+        - Change DIR's key to point to TEMPALTES_DIR
+        - Add Heroku hostname to allowed hosts
+        - Create directories for media, static and templates in the project workspace
+        - Create a Procfile
 
-## Media
+- Deploy new empty project to Heroku
+![initial_heroku_deployment](documentation_assets/images/initial_deployment_successful.png)
 
-|  #  |  Source  | Description
-|:---:| ------- | --------------- |
-| 01 | [Mountain Equipment](https://www.mountain-equipment.co.uk/) | The majority of the product images have been taken from Mountain Equipment and altered for the needs of the website |
-| 02 | [Cotswold Outdoor](https://www.cotswoldoutdoor.com/) | Additional product images have been taken from Cotswold Outdoor and altered for the needs of the website |
-| 03 | [On Cloud](https://www.on-running.com/) | Additional product images have been taken from On Cloud and altered for the needs of the website |
-| 04 | [Colin Prior](https://colinprior.co.uk/) | About us main image |
-| 05 | [Nayemdevs](https://nayemdevs.com/changing-the-default-thumbnail-placeholder-of-woocommerce-product-is-easy/) | Default product image |
-| 06 | [One Earth](https://www.oneearth.org/ecoregions/interior-alaska-yukon-lowland-taiga/) | Ptarmigan parallax image |
-| 07 | [Yukon News](https://www.yukon-news.com/life/ptarmigan-are-built-to-thrive-in-the-winter/) | Ptarmigan product detail background |
-| 08 | [Unsplash](https://unsplash.com/) | Home page hero image and home page product feature images |
-| 09 | [Ptarmigan Land](https://www.ptarmiganland.com/) | Ptarmigan Logo Image |
+<a name="deployment"></a>
 
-## Blog Credits 
+# 6. Deployment
 
-|  Title  |  Content  | Main Image | Parallax Image | Content Image |
-| ----- | ------- | --- | --- | --- |
-| A Return to the Highlands | Written by site admin | [Unsplash](https://unsplash.com/photos/sBzOEqqMolA) | [Unsplash](https://unsplash.com/photos/Qi44wGsEqKk) | [Unsplash](https://unsplash.com/photos/H9G9DvlHZDw) |
-| Affric Highlands launched to rewild half a million acres | [Walk Highlands](https://www.walkhighlands.co.uk/news/affric-highlands-launched-to-rewild-half-a-million-acres/) | [The Times](https://www.thetimes.co.uk/article/five-of-the-best-glens-in-scotland-3w36fq0bh) | N/A | N/A |
-| Explore the Highlands but stay safe! | [True Highlands](https://www.truehighlands.com/staying-safe-in-the-hills/) | [Unsplash](https://unsplash.com/photos/zR8cV1l2jLQ) | [Unsplash](https://unsplash.com/photos/ul-j5yOB2o0) | [Unsplash](https://unsplash.com/photos/GYCfL_i_hhU) |
-| Explore the Small Isles | [True Highlands](https://www.truehighlands.com/the-small-isles/) | [Whale Trail](https://whaletrail.org/the-pier-isle-of-canna) | [Wikipedia](https://en.wikipedia.org/wiki/File:Isle_of_Muck_-_Panoramic_view_from_the_sea.jpeg) | N/A |
-| Rob Roy Way: 4 Places You Should Know | [Hill Walk Tours](https://www.hillwalktours.com/walking-hiking-blog/rob-roy-way-4-places-you-should-know/) | [See Loch Lomond](https://www.seelochlomond.co.uk/discover/visit-callander-in-the-trossachs) | [Location Scout](https://www.locationscout.net/united-kingdom/25134-falls-of-dochart)  | [Visit Scotland](https://www.visitscotland.com/destinations-maps/pitlochry/accommodation/) |
-| Torridon | [Steve Carter](http://www.stevecarter.com/ansh/ansh2.htm) | [Trip Advisor](https://www.tripadvisor.co.uk/Attraction_Review-g551819-d519798-Reviews-Glen_Torridon-Shieldaig_Ross_and_Cromarty_Scottish_Highlands_Scotland.html) | [Reddit](https://www.reddit.com/r/EarthPorn/comments/kch331/the_pinnacles_of_liathach_torridon_scotland_oc/) | N/A |
-| 7 Scottish Castles | [Visit Scotland](https://www.visitscotland.com/see-do/attractions/castles/great-scottish-castles/) | [Historic Houses](https://www.historichouses.org/house/dunnottar-castle/visit/) | [Wikimedia](https://commons.wikimedia.org/wiki/File:Eilean_Donan_at_Dusk.jpg) | [John S Pow](https://www.johnspowphotography.com/blog/2021/1/4/the-best-place-to-photograph-stirling-castle) |
+[Go to the top](#table-of-contents)
 
-## Disclaimer
+I used the terminal to deploy my project locally. To do this I had to:
+1. Create a repository on GitHub.
+2. Clone the repository on your chosen source code editor (GitPod in my case) using the clone link.
+3. Open the terminal within GitPod
+4. Enter "python3 manage.py runserver into the terminal.
+5. Go to local host address on my web browser.
+6. All locally saved changes will show up here.
 
-All images and content sourced for the website are for educational purposes only. 
+For the final deployment to Heroku, I had to:
+1. Uncomment the PostgreSQL databse from my settings.py file.
+2. Set debug = False in my settings.py file.
+3. Commit and push all files to GitHub
+3. In Heroku, remove the DISABLE_COLLECTSTATIC config var.
+4. In the deploy tab, go to the manual deploy sections and click deploy branch.
 
-# Acknowledgments
+I had an issue with the deployed site and the CSS was not showing on my screen.
+This was rectified by restarting all dynos in Heroku.
 
-- Thanks to my mentor Gerard Mcbride for his time and support. 
-- Code Institute's tutor team for support in aiding with minor bug fixes. 
+<a name="end-product"></a>
 
+# 7. End Product
 
+[Go to the top](#table-of-contents)
 
+Home Page:
+![home_page_desktop_preview](documentation_assets/images/homepage_desktop_preview.png)
 
+![home_page_mobile_preview](documentation_assets/images/homepage_mobile_preview.png)
 
+Menu Page:
+![menu_desktop_preview](documentation_assets/images/menu_desktop_preview.png)
 
+![menu_mobile_preview](documentation_assets/images/menu_mobile_preview.png)
 
+Contact Page:
+![contact_desktop_preview](documentation_assets/images/contact_deskop_preview.png)
 
+![contact_mobile_preview](documentation_assets/images/contact_mobile_preview.png)
+
+Book Now Page:
+![booking_desktop_preview](documentation_assets/images/booking_desktop_preview.png)
+
+![booking_mobile_preview](documentation_assets/images/booking_mobile_preview.png)
+
+Manage Booking Page:
+![manage_booking_desktop_preview](documentation_assets/images/manage_booking_desktop_preview.png)
+
+![manage_booking_mobile_preview](documentation_assets/images/manage_booking_mobile_preview.png)
+
+Edit Booking Page:
+![edit_booking_desktop_preview](documentation_assets/images/edit_booking_desktop_preview.png)
+
+![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+
+Edit Profile Page:
+![edit_profile_desktop_preview](documentation_assets/images/edit_profile_desktop_preview.png)
+
+![edit_profile_mobile_preview](documentation_assets/images/edit_profile_mobile_preview.png)
+
+Register Page:
+![register_desktop_preview](documentation_assets/images/register_desktop_preview.png)
+
+![register_mobile_preview](documentation_assets/images/register_mobile_preview.png)
+
+Sign In Page:
+![sign_in_desktop_preview](documentation_assets/images/sign_in_desktop_preview.png)
+
+![sign_in_mobile_preview](documentation_assets/images/sign_in_mobile_preview.png)
+
+Sign Out Page:
+![sign_out_desktop_preview](documentation_assets/images/sign_out_desktop_preview.png)
+
+![sign_out_mobile_preview](documentation_assets/images/sign_out_mobile_preview.png)
+
+<a name="known-bugs"></a>
+
+# 8. Known Bugs
+
+[Go to the top](#table-of-contents)
+
+- Some items in the navigation bar don't have a is active red background to show the user they are on the selected page.
+
+- Some forms for this project is built by using the django-crispy-forms libraries therefore, some of the fields do not contain all the validation rules as I cannot target the individual inputs. For example on the edit profile form, I have add the validation rule so that the user can only enter a number, however I couldnt not figure out a way to add a min and max length value.
+
+<a name="credits"></a>
+
+# 9. Credits
+
+[Go to the top](#table-of-contents)
+
+### Code
+-   The navigation bar came from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar).
+
+- The JavaScript code to set the online booking form to default to the current date came from [Stack Overflow](https://stackoverflow.com/questions/6982692/how-to-set-input-type-dates-default-value-to-today).
+
+- The JavaScript code to disable any previous dates on the online booking form came from [Demo2s](https://www.demo2s.com/javascript/javascript-input-date-input-type-date-disable-dates-before-today.html).
+
+### Content
+-   The restaurant logo came from [Adobe Creative Cloud Express logo maker](https://www.adobe.com/express/create/logo).
+
+-   The dragon image from the home page came from [PNGItem](https://www.pngitem.com/middle/wRmbRx_red-dragon-png-red-chinese-dragon-png-transparent/).
+
+-   The banner image from the home page came from [PNGItem](https://pngtree.com/freebackground/chinese-food-pasta-simple-white-banner_1059420.html).
+
+-   The Chinese food image on the menu page came from [Google Images](tinyurl.com/68hzut9u).
+
+-   The Chinese food image on the menu page came from [Google Maps](https://www.maps.ie/create-google-map/).
+
+### Project Acknowledgements
+- Code Institue Tutor Support - For directing me to the correct solutions for any bugs.
+
+- My Mentor - For his constructive criticism and always pushing me to go further to develop my skills.
