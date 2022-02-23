@@ -124,9 +124,9 @@ As I am unable to include all of the features from the strategy table. I will ph
 - Allow users to create and edit a personal profile
 - Responsive design
 - Contact form
-- Ability to create  an order/product
-- Ability to update an order/product
-- Ability to cancel an order/product
+- Ability to create  a product
+- Ability to update a product
+- Ability to delete a product
 
 ### Phase 2
 - avoid users uploading/adding products
@@ -400,25 +400,19 @@ The user profile page is split into two parts:
 - [Fontawesome](https://fontawesome.com/)
     - Fontawesome has been used for icons across the website. 
 - [Google Fonts](https://fonts.google.com/)
-    - Google Fonts has been used to import "Cinzel" & "Montserrat" fonts used across the website. 
+    - Google Fonts feature family "Lato" has been used across the website. 
+- [Pexels](https://pexels.com/)
+    - Pexels was used to obtain some of the image products.
+- [Pixabay](https://pixabay.com/)
+    - Pixabay was also used to obtain some of the image products.  
 - [jQuery](https://jquery.com/)
     - Has been used to ease DOM manipulation. 
 - [Balsamiq](https://balsamiq.com/)
     - This has been used to create the wireframes for the project. 
-- [Canva](https://www.canva.com/)
-    - Canva has been used to design the websites logo.
-- [Photopea](https://www.photopea.com/)
-    - This has been used to make changes to the product images.
-- [Dbdiagram](https://dbdiagram.io/home) 
-    - Used to create the database schema illustration.
-- [Techsini](https://techsini.com/multi-mockup/)
-    - Techsini has been used to generate mock images on different devices, and help with responsiveness.
 - [Github](https://github.com/)
     - GitHub is used to store the project code after being pushed from Git.
 - [Git](https://git-scm.com/) 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-- [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/)
-    - This has been used for the home page carousel for the blogs.
 
 # 4. Testing
 
