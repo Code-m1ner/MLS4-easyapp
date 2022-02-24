@@ -485,15 +485,17 @@ Please find below my testing process for all pages via mobile and web:
 All Pages:
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
-Home page | When clicking the "home" button in the navigation bar, the browser redirects me to the home page. The is active styling will appear as the home button has a red background. | PASS
-Menu page | When clicking the "menu" button in the navigation bar, the browser redirects me to the menu page. The is active styling will appear as the menu button has a red background. | PASS
+Home page | When clicking the "home" button in the navigation bar on small devices, the browser redirects me to the home page. While in devices with larg screen will automatically open a home page | PASS
+Products page | When clicking the "New collections are here" button on the left center of the home page, the browser redirects me to the products page. | PASS
 Contact page | When clicking the "contact" button in the navigation bar, the browser redirects me to the contact page. The is active styling will appear as the contact button has a red background. | PASS
-Book now page | When clicking the "book now" button in the navigation bar, the browser redirects me to the book now page. The is active styling will appear as the book now button has a red background.| PASS
-Manage booking page | When clicking the "manage bookings" button in the navigation bar, the browser redirects me to the manage booking page. The user will know they are on this page by the heading. | PASS
-Edit profile page | Checked foreground information is not distracted by backgrounds| PASS
-Register page | When clicking the "register" button in the navigation bar, the browser redirects me to the register page. The user will know they are on this page by the heading. | PASS
-Login / Logout page | When clicking the "login" or "logout button in the navigation bar, the browser redirects me to the login or logout page. The user will know they are on this page by the heading. | PASS
-Foreground & background colour | Checked foreground information is not distracted by background animation. | PASS
+product's detail page | When clicking on any product in the product's page, the browser redirects me to that product's details. The page will contain price, information, quantity, size of the product and will have buttons that will allow user to add product to bag or go back to the all product's page but it also allows user to access the write reviews page where only registered users are allowed to edit, delete or write reviews while if the user is admin, the admin is allowed access to edit or delete product a specific product.| PASS
+Shopping bag page | When clicking the on "Bag" icon in the far right of the home page, the browser redirects me to my shopping bag page. The user will know they are on this page by the heading and how the content is styled giving user full information of what they added to the bag and if there is nothing in the bag, there will be a message alerting user they have nothing in their bag. | PASS
+Check out Page | After the product is added to the bag, the user can click on "Secure Checkout" link to be redirected to the checkout page which contains the 'Details', 'Delivery' and 'Payments' field inputs for the user to fill out to complete their order. The page contains also the order summary detailed in a way the user will be able to certify their product. The page contains buttons that allows user to adjust their bag or place an order by clicking the "Complete Order" button to order the product. | PASS
+Thank You Page | This page is accessed after the order has been completed successfully with a message alerting user the email being sent to them to confirm their order, the page also contains vital information inserted by user during their product check out. | PASS
+Profile page | This page is accessed by the registered and logged in users. On the home page close to the bag icon, there is a man icon labelled "My Account"  that links to a logout and profile page if the user is not an admin of the site while if the user is admin, the user will have an added link named "Product Management". The "Profile page contains user's order history and personal information saved by default. | PASS
+Produc Management | This page is accessed by only the admin of the site and this is located on the like labelled "My Account" on the home page. Admin has the ability to upload new products. | PASS
+Register page | When clicking the "My account" icon in the hompage close to the bag icon, link opens a dropdown menu with links to register if not user and login if registered user. By clicking the register link the browser redirects me to the register page. The user will know they are on this page by the information required by site to user to provide. | PASS
+Logout page | When clicking the "My account" icon, the link opens a dropdown menu with a link "Logout" if the user is logned in and  the browser redirects me to a confirmation page if I'm certain of my choice. The user will know they are on this page by the heading. | PASS
 Text | Checked that all fonts and colours used are consistent. | PASS
 
 ### Footer
@@ -512,12 +514,12 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
 ![index_google_lighthouse](documentation_assets/images/index_google_lighthouse.png)
 
-### Menu page
+### All Products page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
-Book now button | When clicking the book now button on the page, the browser redirects to the booking page. | PASS
+Shop Now button | When clicking the shop now button on the page, the browser redirects to all product's page. | PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
 ![menu_google_lighthouse](documentation_assets/images/menu_google_lighthouse.png)
@@ -533,37 +535,38 @@ Contact Form | Checked the form submits only when all fields are filled out. | P
 
 ![contact_google_lighthouse](documentation_assets/images/contact_google_lighthouse.png)
 
-### Booking page
+### Product Detail's page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
-Book now button | When clicking the book now button on the page, the browser redirects to the booking page. | PASS
+Add to Bag button | When clicking the add to bag button on the page, the product is added to the bag automatically. | PASS
+Keep Shopping button | When clicking the keep shopping button on the page, the browser redirects me back to all products page. | PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-Booking Form | Checked the form submits only when all required fields are filled out. | PASS
-If not signed in | Checked to see if the user has not signed in the booking form should not show and a message displays prompting the user to signup/sign-in first. | PASS
+Checkout Form | Checked the form submits only when all required fields are filled out. | PASS
+If not signed in | Checked to see if the user has not signed in the site and alloewd a message displays asking the user to create an account or login to save this information . | PASS
 
 ![booking_google_lighthouse](documentation_assets/images/booking_google_lighthouse.png)
 
-### Edit booking page
+### Edit Profile page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-Edit Booking Form | Checked the form submits only when all required fields are filled out. | PASS
-Form validation | Checked that the telephone number input only allows number input and not any text | PASS
+Edit Product Form | Checked the form submits only when all required fields are filled out. | PASS
+Form validation | Checked that the price field input only allows number input and not any text | PASS
 
 ![edit_booking_google_lighthouse](documentation_assets/images/edit_booking_google_lighthouse.png)
 
-### Manage booking page
+### Product Management page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-Edit booking button | Checked that the button redirects to the edit booking page with the correct booking instance. | PASS
-Cancel booking button | Checked that the button redirects to the cancel booking page with the correct booking instance. | PASS
+Add Product button | Checked that the button redirects to the all products page with the product added. | PASS
+Cancel  button | Checked that the button redirects to the all products page with no new product added. | PASS
 
 ![manage_booking_google_lighthouse](documentation_assets/images/manage_booking_google_lighthouse.png)
 
@@ -600,7 +603,7 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Register form | Checked the form submits only when all required fields are filled out. | PASS
-Sign in link | Checked the sign-in link redirects to the sign-in page. | PASS
+Sign in link | Checked the sign-in link redirects to the sign-in page with a message sent to email for login confirmation. | PASS
 
 ![signup_google_lighthouse](documentation_assets/images/sign_up_google_lighthouse.png)
 
@@ -611,7 +614,7 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Sign in form | Checked the form submits only when all required fields are filled out. | PASS
-Signup link | Checked the signup link redirects to the signup page. | PASS
+Signup link | Checked the signup link redirects to the home page with message alerting user of being signed in succesfully page. | PASS
 
 ![sign_in_google_lighthouse](documentation_assets/images/sign_in_google_lighthouse.png)
 
@@ -632,7 +635,7 @@ Signup link | Checked the signup link redirects to the signup page. | PASS
 - Create a new, blank Django Project
     - Create a new project
     - Create the app
-    - Add restaurant_booking to the installed apps in settings.py
+    - Add Products to the installed apps in settings.py
     - Migrate all new changes to the database
     - Run the server to test
 
@@ -686,11 +689,10 @@ Signup link | Checked the signup link redirects to the signup page. | PASS
 
 I used the terminal to deploy my project locally. To do this I had to:
 1. Create a repository on GitHub.
-2. Clone the repository on your chosen source code editor (GitPod in my case) using the clone link.
-3. Open the terminal within GitPod
-4. Enter "python3 manage.py runserver into the terminal.
-5. Go to local host address on my web browser.
-6. All locally saved changes will show up here.
+2. Open the terminal within GitPod
+3. Enter "python3 manage.py runserver into the terminal.
+4. Go to local host address on my web browser.
+5. All locally saved changes will show up here.
 
 For the final deployment to Heroku, I had to:
 1. Uncomment the PostgreSQL databse from my settings.py file.
