@@ -17,6 +17,7 @@ def contact(request):
             subject = request.POST.get('subject')
             name = request.POST.get('name')
             email = request.POST.get('email')
+            message = request.POST.get('message')
             form.save()
             messages.success(
                 request,

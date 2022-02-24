@@ -3,13 +3,14 @@
 
 {% block page_header %}
     <div class="container header-container">
-        <div class="row no-gutters">
+        <div class="row">
             <div class="col"></div>
         </div>
     </div>
 {% endblock %}
 
 {% block content %}
+<div class="overlay"></div>
     <div class="container mt-4 min-height">
         <div class="row">
             <div class="col text-center mb-3">
@@ -44,7 +45,7 @@
                 <p>Have you responded to <strong>{{ contact.name }}</strong> before you delete this message?</p>
             </div>
             <div class="modal-footer text-center">
-                <button class="btn content-text buttons-general text-white text-uppercase fs-6 mb-2" data-dismiss="modal">Cancel</button>
+                <button class="btn content-text buttons-general text-black' text-uppercase fs-6 mb-2" data-dismiss="modal">Cancel</button>
                 <a class="btn content-text delete-button text-uppercase fs-6 mb-2" href="{% url 'delete_contact' contact.id %}">Delete Message</a>
             </div>
           </div>

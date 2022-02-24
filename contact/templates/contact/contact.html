@@ -15,7 +15,8 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container mt-5 min-height">
+<div class="overlay"></div>
+    <div class="container mt-5 min-height text-black">
         <div class="row">
             <div class="col text-center mb-3">
                 <h2 class="title-text text-uppercase">Contact Us</h2>
@@ -97,8 +98,8 @@
                     {% csrf_token %}
                     {{ form|crispy }}
                     <div class="mb-2 text-center">
-                        <a href="{% url 'home' %}" class="btn content-text text-white buttons-general text-uppercase mb-2 px-2 fs-6" role="button">Cancel</a>
-                        <button class="btn content-text buttons-general-2 text-uppercase fs-6 mb-2">Submit</button>
+                        <a href="{% url 'home' %}" class="btn content-text text-brown buttons-general text-uppercase mb-2 px-2 fs-6" role="button">Cancel</a>
+                        <button type="submit" class="btn content-text buttons-general-2 text-uppercase fs-6 mb-2">Submit</button>
                     </div>
                 </form>
             </div>
