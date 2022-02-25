@@ -95,9 +95,7 @@ The main goal of this project is to allow the user to sign up, sign in/out, crea
 
 
 ### User Stories
-Throughout the project I used the GitHub projects board to log all user stories as my project management tool. This helped me keep focus on the necesarry tasks as I would move them to the "in progress lane" as I'm working on the story. I would then move them to the "done" lane once the story has been completed.
-
-![user_story_board](documentation_assets/images/project_board.png)
+Throughout the project I used the developer tools to verify user stories as my project management tool. This helped me keep focus on the implementaion of the site's responsiveness through all media screen . I would then add, commit and push once it was well responsive.
 
 ### Strategy Table
 Opportunity/Problem/Feature| Importance| Viability/Feasibility
@@ -169,20 +167,6 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-
-class Comment(models.Model):
-    """ This model contains product comment information"""
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    subject = models.CharField(max_length=50, null=False, blank=False)
-    comment = models.TextField(max_length=250, null=False, blank=False)
-    rating = models.IntegerField(
-        default=1, validators=[MaxValueValidator(5), MinValueValidator(1)]
-    )
-    create_at = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return self.subject
 ```
 
 <a name="skeleton"></a>
@@ -194,10 +178,10 @@ class Comment(models.Model):
 ### Wire-frames
 
 Home/Landing Page Desktop:
-![home_page_desktop](documentation_assets/wireframes/home_desktop.png)
+![home_page_desktop](documentation/wireframes/docs/homepagedesktop.png)
 
 Menu Page Desktop:
-![menu_page_desktop](documentation_assets/wireframes/menu_desktop.png)
+![menu_page_desktop](documentation/wireframes/docs/all-products-page.png)
 
 Register Page Desktop:
 ![register_page_desktop](documentation_assets/wireframes/register_desktop.png)
