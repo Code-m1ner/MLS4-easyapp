@@ -742,7 +742,7 @@ Sign Up Page:
 ![menu_mobile_preview](documentation_assets/images/menu_mobile_preview.png)
 
 Signin Page:
-![signin_desktop_preview](documentation/wireframes/end_product/signin-desktop.png)
+![signin_desktop_preview](documentation/wireframes/end_product/sign-in-desktop.png)
 
 ![contact_mobile_preview](documentation_assets/images/contact_mobile_preview.png)
 
