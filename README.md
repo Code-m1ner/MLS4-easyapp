@@ -734,62 +734,54 @@ This was rectified by restarting all dynos in Heroku.
 Home Page:
 ![home_page_desktop_preview](documentation/wireframes/end_product/homepage-desktop.png)
 
-![home_page_mobile_preview](documentation_assets/images/homepage_mobile_preview.png)
+![home_page_mobile_preview](documentation/wireframes/end_product/homepage-mobile.png)
 
 Sign Up Page:
 ![Sign_up_preview](documentation/wireframes/end_product/signup-desktop.png)
 
-![menu_mobile_preview](documentation_assets/images/menu_mobile_preview.png)
+![signup_mobile_preview](documentation/wireframes/end_product/signup-mobile.png)
 
 Signin Page:
 ![signin_desktop_preview](documentation/wireframes/end_product/sign-in-desktop.png)
 
-![contact_mobile_preview](documentation_assets/images/contact_mobile_preview.png)
+![signin_mobile_preview](documentation/wireframes/end_product/signin-mobile.png)
 
 All Products Page:
 ![all_products_desktop_preview](documentation/wireframes/end_product/all-products-desktop.png)
 
-![booking_mobile_preview](documentation_assets/images/booking_mobile_preview.png)
+![all_products_mobile_preview](documentation/wireframes/end_product/all-product-mobile.png)
 
 My profile Page:
 ![my_profile_desktop_preview](documentation/wireframes/end_product/profile-desktop.png)
 
-![manage_booking_mobile_preview](documentation_assets/images/manage_booking_mobile_preview.png)
+![my_profile_mobile_preview](documentation/wireframes/end_product/my-profile-mobile.png)
 
 Product detail Page:
 ![product_detail_desktop_preview](documentation/wireframes/end_product/product-detail-desktop.png)
 
-![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+![product_detail_mobile_preview](documentation/wireframes/end_product/product-detail-mobile.png)
 
 Shopping Bag Page:
 ![product_detail_desktop_preview](documentation/wireframes/end_product/shopping-bag-desktop.png)
 
-![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+![shopping_bag_mobile_preview](documentation/wireframes/end_product/shopping-bag-mobile.png)
 
 Checkout Page:
-![checkout_desktop_preview](documentation/wireframes/end_product/product-detail-desktop.png)
+![checkout_desktop_preview](documentation/wireframes/end_product/checkout-desktop.png)
 
-![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+![checkout_mobile_preview](documentation/wireframes/end_product/checkout-mobile.png)
 
 Success Page:
-![success_desktop_preview](documentation/wireframes/end_product/success-desktop.png)
+![success_desktop_preview](documentation/wireframes/end_product/succes-desktop.png)
 
-![edit_profile_mobile_preview](documentation_assets/images/edit_profile_mobile_preview.png)
+![success_mobile_preview](documentation/wireframes/end_product/success-mobile.png)
 
 Product Management Page:
-![product_management_desktop_preview](documentation_assets/images/product-management-desktop.png)
+![product_management_desktop_preview](documentation/wireframes/end_product/product-management-desktop.png)
 
-![register_mobile_preview](documentation_assets/images/register_mobile_preview.png)
+![product_management_mobile_preview](documentation/wireframes/end_product/product-management-mobile.png)
 
-Sign In Page:
-![sign_in_desktop_preview](documentation_assets/images/sign_in_desktop_preview.png)
 
-![sign_in_mobile_preview](documentation_assets/images/sign_in_mobile_preview.png)
-
-Sign Out Page:
-![sign_out_desktop_preview](documentation_assets/images/sign_out_desktop_preview.png)
-
-![sign_out_mobile_preview](documentation_assets/images/sign_out_mobile_preview.png)
 
 <a name="known-bugs"></a>
 
