@@ -216,19 +216,26 @@ When the user successfully made an order transaction of their product, this is t
 ![Success_page_desktop](documentation/wireframes/order-confirm-detail.png)
 
 ### Wire-frames / Mobile view
-Below I have shared some of the wireframes design on the small device/mobile displays:
+Below I have shared some but not all of the wireframes design on the small device/mobile displays:
 
-From left to right home > navigation bar > menu mobile:
-![home_navbar_menu_mobile](documentation_assets/wireframes/home_navbar_menu_mobile.png)
+Sign up / register view on mobile:
+![Sign_up_mobile_view](documentation/wireframes/signup_mobile.png)
 
-From left to right online bookings > contact form part 1 > contact form part 2 mobile:
-![online-booking_contact-1_contact_2_mobile](documentation_assets/wireframes/online-booking_contact-1_contact-2.png)
+Sign in / login view on mobile:
+![Sign in_mobile_view](documentation/wireframes/signin_mobile.png)
 
-From left to right edit profile > manage bookings mobile:
-![edit-profile_manage-bookings_mobile](documentation_assets/wireframes/edit-profile_manage-bookings.png)
+My Profile view on mobile:
+![My_profile_mobile_view](documentation/wireframes/my-profile-mobile.png)
 
-From left to right resgister > navigation bar when user is logged in mobile:
-![register_login_logged-in-navbar_mobile](documentation_assets/wireframes/register_login_logged-in-navbar.png)
+My Shopping Bag view on mobile:
+![My_shopping_Bag_mobile_view](documentation/wireframes/shopping-bag-mobile.png)
+
+Checkout view on mobile:
+![Checkout_mobile_view](documentation/wireframes/checkout-mobile.png)
+
+Order Succes view on mobile:
+![Order_success_mobile_view](documentation/wireframes/order-confirm-mobile.png)
+
 
 <a name="surface"></a>
 
