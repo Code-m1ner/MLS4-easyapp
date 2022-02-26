@@ -197,7 +197,7 @@ This displays to a registered user trying to access their acoount on desktop:
 
 Product Detail Page Desktop:
 When User gets more information on the specific product using a desktop display:
-![product_detail_page_desktop](documentation/wireframes/product-detail-desktop.png)
+![product_detail_page_desktop](documentation/wireframes/product-details-page-desktop.png)
 
 Shopping bag Page Desktop:
 When the user wants to know what they have on their bag using a desktop display:
@@ -205,11 +205,15 @@ When the user wants to know what they have on their bag using a desktop display:
 
 Profile Page Desktop:
 When a user trys to view their profile information using desktop screen:
-![profile_page_desktop](documentation/wireframes/profile_desktop.png)
+![profile_page_desktop](documentation/wireframes/my-profile-desktop.png)
 
 Checkout Page Desktop:
 When the user successfully added a product to their bag and would like to continue with the checkout, this is their checkout display on desktop:
 ![Checkout_page_desktop](documentation/wireframes/checkout-desktop.png)
+
+Success Page Desktop:
+When the user successfully made an order transaction of their product, this is their order confirm page/success display on desktop:
+![Success_page_desktop](documentation/wireframes/order-confirm-detail.png)
 
 ### Wire-frames / Mobile view
 Below I have shared some of the wireframes design on the small device/mobile displays:
