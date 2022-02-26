@@ -176,9 +176,13 @@ class Product(models.Model):
 [Go to the top](#table-of-contents)
 
 ### Wire-frames
+The project was prepared with quite alot of the wireframes that were much detailed but below I intended to share some of the many I designed just to showcase how the design skeleton of this project looked like.
+On the finished product illustrations, you will find all the clear implemented display of every page of the project in small and large screen device.
 
 Home/Landing Page Desktop:
-![home_page_desktop](documentation/wireframes/homepagedesktop.png)
+When the page is accessed with both large and small device screen:
+![home_page_desktop](documentation/wireframes/homepagedesktop.png) ![home_Mobile_desktop](documentation/wireframes/homepagemobile.png)
+
 
 All Products Page Desktop:
 ![menu_page_desktop](documentation/wireframes/all_ptoducts_page.png)
