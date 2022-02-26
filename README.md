@@ -185,7 +185,7 @@ When the home page is accessed with large device screen:
 
 All Products Page Desktop:
 When the all products page is accessed by large device screen:
-![menu_page_desktop](documentation/wireframes/all-ptoducts-page.png)
+![all_products_page_desktop](documentation/wireframes/all-products-page.png)
 
 Sign Up /Register Page Desktop:
 When a user accesses the register / sign up page on desktop display:
