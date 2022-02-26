@@ -533,8 +533,6 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on the page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
-![index_google_lighthouse](documentation_assets/images/index_google_lighthouse.png)
-
 ### All Products page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -542,8 +540,6 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Shop Now button | When clicking the shop now button on the page, the browser redirects to all product's page. | PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-
-![menu_google_lighthouse](documentation_assets/images/menu_google_lighthouse.png)
 
 ### Contact page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -554,7 +550,6 @@ Book now button | When clicking the book now button on the page, the browser red
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Contact Form | Checked the form submits only when all fields are filled out. | PASS
 
-![contact_google_lighthouse](documentation_assets/images/contact_google_lighthouse.png)
 
 ### Product Detail's page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -567,8 +562,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Checkout Form | Checked the form submits only when all required fields are filled out. | PASS
 If not signed in | Checked to see if the user has not signed in the site and alloewd a message displays asking the user to create an account or login to save this information . | PASS
 
-![booking_google_lighthouse](documentation_assets/images/booking_google_lighthouse.png)
-
 ### Edit Profile page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -578,7 +571,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Edit Product Form | Checked the form submits only when all required fields are filled out. | PASS
 Form validation | Checked that the price field input only allows number input and not any text | PASS
 
-![edit_booking_google_lighthouse](documentation_assets/images/edit_booking_google_lighthouse.png)
 
 ### Product Management page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -589,33 +581,24 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Add Product button | Checked that the button redirects to the all products page with the product added. | PASS
 Cancel  button | Checked that the button redirects to the all products page with no new product added. | PASS
 
-![manage_booking_google_lighthouse](documentation_assets/images/manage_booking_google_lighthouse.png)
-
-### Create profile page
+### Update profile page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-Create profile form | Checked the form submits only when all required fields are filled out. | PASS
-If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
-Form validation | Checked that the telephone number input only allows number input and not any text | PASS
-
-![create_profile_validation](documentation_assets/images/create_profile_input_validation.png)
-![create_profile_google_lighthouse](documentation_assets/images/create_profile_google_lighthouse.png)
+Update profile | Checked the form updates when personal information is added or deleted are filled out. | PASS
+Form validation | Checked that when the profile is updated, the added data is saved | PASS
 
 
-### Edit profile page
+### Edit product page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-Edit profile form | Checked the form submits only when all required fields are filled out. | PASS
-Form validation | Checked that the telephone number input only allows number input and not any text | PASS
-If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
-
-![edit_profile_google_lighthouse](documentation_assets/images/edit_profile_google_lighthouse.png)
+Edit product form | Checked the form submits only when all required fields are filled out. | PASS
+Form validation | Checked that theprice input only allows number input and not any text | PASS
 
 ### Register page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -626,7 +609,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Register form | Checked the form submits only when all required fields are filled out. | PASS
 Sign in link | Checked the sign-in link redirects to the sign-in page with a message sent to email for login confirmation. | PASS
 
-![signup_google_lighthouse](documentation_assets/images/sign_up_google_lighthouse.png)
 
 ### Sign in page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -637,7 +619,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Sign in form | Checked the form submits only when all required fields are filled out. | PASS
 Signup link | Checked the signup link redirects to the home page with message alerting user of being signed in succesfully page. | PASS
 
-![sign_in_google_lighthouse](documentation_assets/images/sign_in_google_lighthouse.png)
 
 
 <a name="development-cycle"></a>
