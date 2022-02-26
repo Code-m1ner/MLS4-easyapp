@@ -178,28 +178,25 @@ class Product(models.Model):
 ### Wire-frames
 
 Home/Landing Page Desktop:
-![home_page_desktop](documentation/wireframes/docs/homepagedesktop.png)
+![home_page_desktop](documentation/wireframes/homepagedesktop.png)
 
-Menu Page Desktop:
-![menu_page_desktop](documentation/wireframes/docs/all-products-page.png)
+All Products Page Desktop:
+![menu_page_desktop](documentation/wireframes/all_ptoducts_page.png)
 
-Register Page Desktop:
-![register_page_desktop](documentation_assets/wireframes/register_desktop.png)
+Sign Up /Register Page Desktop:
+![register_page_desktop](documentation_assets/wireframes/signup_desktop.png)
 
-Login Page Desktop:
-![login_page_desktop](documentation_assets/wireframes/login_desktop.png)
+Sign In /Login Page Desktop:
+![login_page_desktop](documentation_assets/wireframes/signin_desktop.png)
 
-User Logged In Desktop:
-![user_logged_in_desktop](documentation_assets/wireframes/user_logged_in_desktop.png)
-
-Online Booking Page Desktop:
-![online_booking_page_desktop](documentation_assets/wireframes/online_booking_desktop.png)
+Product Detail Page Desktop:
+![online_booking_page_desktop](documentation_assets/wireframes/product-detail-desktop.png)
 
 Contact Page Desktop:
 ![contact_page_desktop](documentation_assets/wireframes/contact_desktop.png)
 
-Edit Profile Page Desktop:
-![edit_profile_page_desktop](documentation_assets/wireframes/edit_profile_desktop.png)
+Profile Page Desktop:
+![edit_profile_page_desktop](documentation_assets/wireframes/profile_desktop.png)
 
 Manage Booking Page Desktop:
 ![manage_booking_page_desktop](documentation_assets/wireframes/manage_booking_desktop.png)
