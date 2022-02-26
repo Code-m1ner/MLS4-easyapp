@@ -166,6 +166,22 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+        
+        
+class UserProfile(models.Model):
+    
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    default_phone_number = models.CharField(max_length=20, null=True, blank=True)
+    default_street_address1 = models.CharField(max_length=80, null=True, blank=True)
+    default_street_address2 = models.CharField(max_length=80, null=True, blank=True)
+    default_town_or_city = models.CharField(max_length=40, null=True, blank=True)
+    default_county = models.CharField(max_length=80, null=True, blank=True)
+    default_postcode = models.CharField(max_length=20, null=True, blank=True)
+    default_country = CountryField(blank_label='Country', null=True, blank=True)
+
+    def __str__(self):
+        return self.user.username
+        
 
 ```
 
@@ -716,42 +732,52 @@ This was rectified by restarting all dynos in Heroku.
 [Go to the top](#table-of-contents)
 
 Home Page:
-![home_page_desktop_preview](documentation_assets/images/homepage_desktop_preview.png)
+![home_page_desktop_preview](documentation/wireframes/end_product/homepage-desktop.png)
 
 ![home_page_mobile_preview](documentation_assets/images/homepage_mobile_preview.png)
 
-Menu Page:
-![menu_desktop_preview](documentation_assets/images/menu_desktop_preview.png)
+Sign Up Page:
+![Sign_up_preview](documentation/wireframes/end_product/signup-desktop.png)
 
 ![menu_mobile_preview](documentation_assets/images/menu_mobile_preview.png)
 
-Contact Page:
-![contact_desktop_preview](documentation_assets/images/contact_deskop_preview.png)
+Signin Page:
+![signin_desktop_preview](documentation/wireframes/end_product/signin-desktop.png)
 
 ![contact_mobile_preview](documentation_assets/images/contact_mobile_preview.png)
 
-Book Now Page:
-![booking_desktop_preview](documentation_assets/images/booking_desktop_preview.png)
+All Products Page:
+![all_products_desktop_preview](documentation/wireframes/end_product/all-products-desktop.png)
 
 ![booking_mobile_preview](documentation_assets/images/booking_mobile_preview.png)
 
-Manage Booking Page:
-![manage_booking_desktop_preview](documentation_assets/images/manage_booking_desktop_preview.png)
+My profile Page:
+![my_profile_desktop_preview](documentation/wireframes/end_product/profile-desktop.png)
 
 ![manage_booking_mobile_preview](documentation_assets/images/manage_booking_mobile_preview.png)
 
-Edit Booking Page:
-![edit_booking_desktop_preview](documentation_assets/images/edit_booking_desktop_preview.png)
+Product detail Page:
+![product_detail_desktop_preview](documentation/wireframes/end_product/product-detail-desktop.png)
 
 ![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
 
-Edit Profile Page:
-![edit_profile_desktop_preview](documentation_assets/images/edit_profile_desktop_preview.png)
+Shopping Bag Page:
+![product_detail_desktop_preview](documentation/wireframes/end_product/shopping-bag-desktop.png)
+
+![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+
+Checkout Page:
+![checkout_desktop_preview](documentation/wireframes/end_product/product-detail-desktop.png)
+
+![edit_booking_mobile_preview](documentation_assets/images/edit_booking_mobile_preview.png)
+
+Success Page:
+![success_desktop_preview](documentation/wireframes/end_product/success-desktop.png)
 
 ![edit_profile_mobile_preview](documentation_assets/images/edit_profile_mobile_preview.png)
 
-Register Page:
-![register_desktop_preview](documentation_assets/images/register_desktop_preview.png)
+Product Management Page:
+![product_management_desktop_preview](documentation_assets/images/product-management-desktop.png)
 
 ![register_mobile_preview](documentation_assets/images/register_mobile_preview.png)
 
