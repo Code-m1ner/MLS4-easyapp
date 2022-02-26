@@ -180,30 +180,39 @@ The project was prepared with quite alot of the wireframes that were much detail
 On the finished product illustrations, you will find all the clear implemented display of every page of the project in small and large screen device.
 
 Home/Landing Page Desktop:
-When the page is accessed with both large and small device screen:
-![home_page_desktop](documentation/wireframes/homepagedesktop.png) ![home_Mobile_desktop](documentation/wireframes/homepagemobile.png)
-
+When the home page is accessed with large device screen:
+![home_page_desktop](documentation/wireframes/homepagedesktop.png) 
 
 All Products Page Desktop:
-![menu_page_desktop](documentation/wireframes/all_ptoducts_page.png)
+When the all products page is accessed by large device screen:
+![menu_page_desktop](documentation/wireframes/all-ptoducts-page.png)
 
 Sign Up /Register Page Desktop:
-![register_page_desktop](documentation_assets/wireframes/signup_desktop.png)
+When a user accesses the register / sign up page on desktop display:
+![register_page_desktop](documentation/wireframes/signup_desktop.png)
 
 Sign In /Login Page Desktop:
-![login_page_desktop](documentation_assets/wireframes/signin_desktop.png)
+This displays to a registered user trying to access their acoount on desktop:
+![login_page_desktop](documentation/wireframes/signin_desktop.png)
 
 Product Detail Page Desktop:
-![online_booking_page_desktop](documentation_assets/wireframes/product-detail-desktop.png)
+When User gets more information on the specific product using a desktop display:
+![product_detail_page_desktop](documentation/wireframes/product-detail-desktop.png)
 
-Contact Page Desktop:
-![contact_page_desktop](documentation_assets/wireframes/contact_desktop.png)
+Shopping bag Page Desktop:
+When the user wants to know what they have on their bag using a desktop display:
+![shopping_bag_page_desktop](documentation/wireframes/shoppingbag-desktop.png)
 
 Profile Page Desktop:
-![edit_profile_page_desktop](documentation_assets/wireframes/profile_desktop.png)
+When a user trys to view their profile information using desktop screen:
+![profile_page_desktop](documentation/wireframes/profile_desktop.png)
 
-Manage Booking Page Desktop:
-![manage_booking_page_desktop](documentation_assets/wireframes/manage_booking_desktop.png)
+Checkout Page Desktop:
+When the user successfully added a product to their bag and would like to continue with the checkout, this is their checkout display on desktop:
+![Checkout_page_desktop](documentation/wireframes/checkout-desktop.png)
+
+### Wire-frames / Mobile view
+Below I have shared some of the wireframes design on the small device/mobile displays:
 
 From left to right home > navigation bar > menu mobile:
 ![home_navbar_menu_mobile](documentation_assets/wireframes/home_navbar_menu_mobile.png)
