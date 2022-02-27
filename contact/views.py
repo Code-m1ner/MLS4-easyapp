@@ -19,7 +19,7 @@ def contact(request):
             name = request.POST.get('name')
             email = request.POST.get('email')
             message = request.POST.get('message')
-            form.save()
+            
             messages.success(
                 request,
                 f'Thanks {name}! {subject} has been sent to the \
