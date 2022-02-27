@@ -29,7 +29,7 @@ def contact_management(request):
         'contacts': contacts
     }
 
-    return render(request, 'home/contact_management.html')
+    return render(request, 'home/contact_management.html', context)
 
 
 @login_required
