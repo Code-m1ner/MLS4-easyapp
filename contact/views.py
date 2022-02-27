@@ -7,7 +7,6 @@ from django.template.loader import render_to_string
 from .forms import ContactForm
 
 
-
 def contact(request):
     """
     A view to display the contact us page and contact form
@@ -19,7 +18,7 @@ def contact(request):
             name = request.POST.get('name')
             email = request.POST.get('email')
             message = request.POST.get('message')
-            
+            form.save()
             messages.success(
                 request,
                 f'Thanks {name}! {subject} has been sent to the \

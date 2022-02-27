@@ -19,7 +19,7 @@ def contact_management(request):
     if not request.user.is_superuser:
         messages.error(
             request,
-            'Sorry! Only the team at Tarmachan can access this.'
+            'Sorry! Only the team at Easy App can access this.'
         )
         return redirect(reverse('home'))
 
@@ -59,7 +59,7 @@ def delete_contact(request, contact_id):
     if not request.user.is_superuser:
         messages.error(
             request,
-            'Sorry! Only the team at Tarmachan can access this.'
+            'Sorry! Only the team at Easy App can access this.'
         )
         return redirect(reverse('home'))
     contact = get_object_or_404(Contact, pk=contact_id)
