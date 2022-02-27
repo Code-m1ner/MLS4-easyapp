@@ -302,7 +302,11 @@ The link to the font can be found [here](https://fonts.google.com/share?selectio
 
 #### Home page
 
+<<<<<<< HEAD
 - Users are greeted with a full height cover image which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages depending on the category they choose, there is also an added link element called "contact us" that redirects users to a contact form which will let users write their message to the admin of the site, price and rating with an added link that redirects user to all products.
+=======
+- Users are greeted with a full height cover image which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages depending on the category they choose, there is also an added link element called "All Products" that redirects users to search products by category, price and rating with an added link that redirects users to all products.
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 - There are featured cards for the 4 product categories for shoes link . On desktop devices, when a user hovers over the card images, each hovered card will display the linked elements by dropdown. On mobile devices when a user clicks on one of the image cards, the links will show the elements by dropdown.  
 
 #### Products Page
@@ -361,7 +365,11 @@ The user profile page is split into two parts:
 - Firstly users can update their default delivery information by filling in the form and clicking the update information button allowing for easier purchasing at checkout.
 - The second column has information about a user's past orders. Users can click on the order number to take them to the checkout success page. Going to the confirmation page from the user's profile, rather than a keep shopping link there is a link for the user to take them back to their profile. A message to inform the user that this is a past order confirmation is displayed to avoid confusion.
 
+<<<<<<< HEAD
 #### User Shopping Bag
+=======
+#### Shopping Bag
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 - This page is accessible to all users. If a user has not added any products to their bag then the user will be informed of this and a link to the all products page will be displayed.
 - When a user has added products to their bag they will be displayed here in the same format as the products page. Users will have all the same functionality as the products page from here.
 
@@ -533,8 +541,6 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on the page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 
-![index_google_lighthouse](documentation_assets/images/index_google_lighthouse.png)
-
 ### All Products page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -542,8 +548,6 @@ Media | All media assets are displayed properly, have no pixelation or stretched
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Shop Now button | When clicking the shop now button on the page, the browser redirects to all product's pages. | PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-
-![menu_google_lighthouse](documentation_assets/images/menu_google_lighthouse.png)
 
 ### Contact page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -554,7 +558,6 @@ Book now button | When clicking the book now button on the page, the browser red
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Contact Form | Checked the form submitted only when all fields are filled out. | PASS
 
-![contact_google_lighthouse](documentation_assets/images/contact_google_lighthouse.png)
 
 ### Product Details page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -566,8 +569,11 @@ Keep Shopping button | When clicking the keep shopping button on the page, the b
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Checkout Form | Checked the form submitted only when all required fields are filled out. | PASS
 If not signed in | Checked to see if the user has not signed in the site and allowed a message displaying asking the user to create an account or login to save this information . | PASS
+<<<<<<< HEAD
 
 ![booking_google_lighthouse](documentation_assets/images/booking_google_lighthouse.png)
+=======
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 ### Edit Profile page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -578,7 +584,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Edit Product Form | Checked the form submitted only when all required fields are filled out. | PASS
 Form validation | Checked that the price field input only allows number input and not any text | PASS
 
-![edit_booking_google_lighthouse](documentation_assets/images/edit_booking_google_lighthouse.png)
 
 ### Product Management page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -589,33 +594,41 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Add Product button | Checked that the button redirects to the all products page with the product added. | PASS
 Cancel  button | Checked that the button redirects to the all products page with no new product added. | PASS
 
-![manage_booking_google_lighthouse](documentation_assets/images/manage_booking_google_lighthouse.png)
-
-### Create profile page
+### Update profile page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and are responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
+<<<<<<< HEAD
 Create profile form | Checked the form submitted only when all required fields are filled out. | PASS
 If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
 Form validation | Checked that the telephone number input only allows number input and not any text | PASS
 
 ![create_profile_validation](documentation_assets/images/create_profile_input_validation.png)
 ![create_profile_google_lighthouse](documentation_assets/images/create_profile_google_lighthouse.png)
+=======
+Update profile | Checked the form updates when personal information is added or deleted are filled out. | PASS
+Form validation | Checked that when the profile is updated, the added data is saved | PASS
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 
-### Edit profile page
+### Edit product page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Media | All media assets are displayed properly, have no pixelation or stretched images and are responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
+<<<<<<< HEAD
 Edit profile form | Checked the form submitted only when all required fields are filled out. | PASS
 Form validation | Checked that the telephone number input only allows number input and not any text | PASS
 If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
 
 ![edit_profile_google_lighthouse](documentation_assets/images/edit_profile_google_lighthouse.png)
+=======
+Edit product form | Checked the form submitted only when all required fields are filled out. | PASS
+Form validation | Checked that the price input only allows number input and not any text | PASS
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 ### Register page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -626,7 +639,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Register form | Checked the form submitted only when all required fields are filled out. | PASS
 Sign in link | Checked the sign-in link redirects to the sign-in page with a message sent to email for login confirmation. | PASS
 
-![signup_google_lighthouse](documentation_assets/images/sign_up_google_lighthouse.png)
 
 ### Sign in page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -637,7 +649,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Sign in form | Checked the form submitted only when all required fields are filled out. | PASS
 Signup link | Checked the signup link redirects to the home page with a message alerting the user of being signed in successfully. | PASS
 
-![sign_in_google_lighthouse](documentation_assets/images/sign_in_google_lighthouse.png)
 
 
 <a name="development-cycle"></a>
@@ -750,6 +761,10 @@ All Products Page:
 ![all_products_desktop_preview](documentation/wireframes/end_product/all-products-desktop.png)
 
 ![all_products_mobile_preview](documentation/wireframes/end_product/all-product-mobile.png)
+<<<<<<< HEAD
+=======
+
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 My profile Page:
 ![my_profile_desktop_preview](documentation/wireframes/end_product/profile-desktop.png)
 
@@ -788,9 +803,15 @@ Product Management Page:
 
 [Go to the top](#table-of-contents)
 
+<<<<<<< HEAD
 - Some items in the navigation bar don't have an active red background to show the user they are on the selected page.
 
 - Some forms for this project is built by using the django-crispy-forms libraries therefore, some of the fields do not contain all the validation rules as I cannot target the individual inputs. For example on the edit profile form, I have added the validation rule so that the user can only enter a number, however I couldn't not figure out a way to add a min and max length value.
+=======
+- After deploying my project to heroku, the product detail's page was throwing "500 server error which was due to the database in heroku didnt' have a proper migrations. This was solved by swithiching a database during development and did migrations then redeploy the project and it functioned.
+
+- The home page image loads for a while before displeying the whole page due to the difference of browsers.
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 <a name="credits"></a>
 
@@ -799,26 +820,28 @@ Product Management Page:
 [Go to the top](#table-of-contents)
 
 ### Code
--   The navigation bar came from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar).
+-   The navigation bar came from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar). But the idea of the submenu dropdown came from [W3 Schools](https://w3schools.com)
 
-- The JavaScript code to set the online booking form to default to the current date came from [Stack Overflow](https://stackoverflow.com/questions/6982692/how-to-set-input-type-dates-default-value-to-today).
+- Most of the html and javascript code came from Code Institute on the walk through boutique ado project.
 
-- The JavaScript code to disable any previous dates on the online booking form came from [Demo2s](https://www.demo2s.com/javascript/javascript-input-date-input-type-date-disable-dates-before-today.html).
 
 ### Content
--   The restaurant logo came from [Adobe Creative Cloud Express logo maker](https://www.adobe.com/express/create/logo).
+-   The home page image came from [pexels](https://www.pexels.com).
 
--   The dragon image from the home page came from [PNGItem](https://www.pngitem.com/middle/wRmbRx_red-dragon-png-red-chinese-dragon-png-transparent/).
+-   The product images came from [pixabay](https://www.pixabay.com) and [pexels](https://www.pexels.com).
 
--   The banner image from the home page came from [PNGItem](https://pngtree.com/freebackground/chinese-food-pasta-simple-white-banner_1059420.html).
-
--   The Chinese food image on the menu page came from [Google Images](tinyurl.com/68hzut9u).
-
--   The Chinese food image on the menu page came from [Google Maps](https://www.maps.ie/create-google-map/).
+-   The nav bar menu idea came from [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1).
 
 ### Project Acknowledgements
+<<<<<<< HEAD
 - Code Institute Tutor Support - For directing me to the correct solutions for any bugs.
 
 - My Mentor - For his constructive criticism and always pushing me to go further to develop my skills.
 
 
+=======
+- Code Institute Tutor Support - For directing and giving me full support on finding the correct solutions for the difficult moments I had.
+
+- My Mentor "Marcel M" - For his constructive criticism and always pushing me to go further to develop my skills.
+
+>>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
