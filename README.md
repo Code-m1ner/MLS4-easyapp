@@ -770,9 +770,9 @@ Product Management Page:
 
 [Go to the top](#table-of-contents)
 
-- Some items in the navigation bar don't have an active red background to show the user they are on the selected page.
+- After deploying my project to heroku, the product detail's page was throwing "500 server error which was due to the database in heroku didnt' have a proper migrations. This was solved by swithiching a database during development and did migrations then redeploy the project and it functioned.
 
-- Some forms for this project is built by using the django-crispy-forms libraries therefore, some of the fields do not contain all the validation rules as I cannot target the individual inputs. For example on the edit profile form, I have added the validation rule so that the user can only enter a number, however I couldn't not figure out a way to add a min and max length value.
+- The home page image loads for a while before displeying the whole page due to the difference of browsers.
 
 <a name="credits"></a>
 
@@ -781,25 +781,20 @@ Product Management Page:
 [Go to the top](#table-of-contents)
 
 ### Code
--   The navigation bar came from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar).
+-   The navigation bar came from [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar). But the idea of the submenu dropdown came from [W3 Schools](https://w3schools.com)
 
-- The JavaScript code to set the online booking form to default to the current date came from [Stack Overflow](https://stackoverflow.com/questions/6982692/how-to-set-input-type-dates-default-value-to-today).
+- Most of the html and javascript code came from Code Institute on the walk through boutique ado project.
 
-- The JavaScript code to disable any previous dates on the online booking form came from [Demo2s](https://www.demo2s.com/javascript/javascript-input-date-input-type-date-disable-dates-before-today.html).
 
 ### Content
--   The restaurant logo came from [Adobe Creative Cloud Express logo maker](https://www.adobe.com/express/create/logo).
+-   The home page image came from [pexels](https://www.pexels.com).
 
--   The dragon image from the home page came from [PNGItem](https://www.pngitem.com/middle/wRmbRx_red-dragon-png-red-chinese-dragon-png-transparent/).
+-   The product images came from [pixabay](https://www.pixabay.com) and [pexels](https://www.pexels.com).
 
--   The banner image from the home page came from [PNGItem](https://pngtree.com/freebackground/chinese-food-pasta-simple-white-banner_1059420.html).
-
--   The Chinese food image on the menu page came from [Google Images](tinyurl.com/68hzut9u).
-
--   The Chinese food image on the menu page came from [Google Maps](https://www.maps.ie/create-google-map/).
+-   The nav bar menu idea came from [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1).
 
 ### Project Acknowledgements
-- Code Institute Tutor Support - For directing me to the correct solutions for any bugs.
+- Code Institute Tutor Support - For directing and giving me full support on finding the correct solutions for the difficult moments I had.
 
-- My Mentor - For his constructive criticism and always pushing me to go further to develop my skills.
+- My Mentor "Marcel M" - For his constructive criticism and always pushing me to go further to develop my skills.
 
