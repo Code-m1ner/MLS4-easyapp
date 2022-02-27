@@ -34,7 +34,7 @@
                         <tbody class="content-text">
                             {% for contact in contacts %}
                                 <tr>
-                                    <td class="align-middle"><a href="{% url 'contact_detail' contact.id %}" class="unstyled fs-6"><strong>{{ contact.name }}</strong></a></td>
+                                    <td class="align-middle"><a href="{% url 'contact_detail' contact.id %}" class="unstyled fs-6"><strong><span>View</span>{{ contact.name }}</strong></a></td>
                                     <td class="align-middle">{{ contact.email }}</td>
                                     <td class="align-middle">{{ contact.subject }}</td>
                                     <td class="align-middle"><button data-toggle="modal" data-target="#deleteContactModal" data-id="{{ contact.subject }}" data-url="{% url 'delete_contact' contact.id %}" class="btn content-text buttons-general text-white text-uppercase fs-6">Replied</button></td>

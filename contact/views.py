@@ -23,7 +23,7 @@ def contact(request):
             messages.success(
                 request,
                 f'Thanks {name}! {subject} has been sent to the \
-                    Tarmachan team.'
+                    Easy App team.'
             )
             # Email confirmation of contact message
             data = form.save()
@@ -34,12 +34,6 @@ def contact(request):
             body = render_to_string(
                 'contact/confirmation_emails/contact_message_body.txt',
                 {'data': data}
-            )
-            send_mail(
-                subject,
-                body,
-                settings.DEFAULT_FROM_EMAIL,
-                [email],
             )
         else:
             messages.error(

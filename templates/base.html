@@ -34,7 +34,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Boutique RJ {% block extra_title %}{% endblock %}</title>
+    <title>Easy App {% block extra_title %}{% endblock %}</title>
     
   </head>
   <body>
@@ -72,6 +72,7 @@
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'contact_management' %}" class="dropdown-item">Contacts</a>
                             
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
