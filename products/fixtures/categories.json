@@ -111,8 +111,8 @@
         "pk": 13,
         "model": "products.category",
         "fields": {
-            "name": "new_arrivals",
-            "friendly_name": "New Arrivals"
+            "name": "specials",
+            "friendly_name": "Specials"
         }
     }
     
