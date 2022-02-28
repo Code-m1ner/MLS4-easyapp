@@ -197,60 +197,60 @@ On the finished product illustrations, you will find all the clearly implemented
 
 Home/Landing Page Desktop:
 When the home page is accessed with large device screen:
-![home_page_desktop](documentation/wireframes/doc/homepagedesktop.png)
+![home_page_desktop](documentation/wireframes/docs/homepagedesktop.png)
 
 All Products Page Desktop:
 When the all products page is accessed by large device screen:
-![all_products_page_desktop](documentation/wireframes/all-products-page.png)
+![all_products_page_desktop](documentation/wireframes/docs/all-products-page.png)
 
 Sign Up /Register Page Desktop:
 When a user accesses the register / sign up page on desktop display:
-![register_page_desktop](documentation/wireframes/doc/signup_desktop.png)
+![register_page_desktop](documentation/wireframes/docs/signup_desktop.png)
 
 Sign In /Login Page Desktop:
 This displays to a registered user trying to access their account on desktop:
-![login_page_desktop](documentation/wireframes/doc/signin_desktop.png)
+![login_page_desktop](documentation/wireframes/docs/signin_desktop.png)
 
 Product Detail Page Desktop:
 When User gets more information on the specific product using a desktop display:
-![product_detail_page_desktop](documentation/wireframes/doc/product-details-page-desktop.png)
+![product_detail_page_desktop](documentation/wireframes/docs/product-details-page-desktop.png)
 
 Shopping bag Page Desktop:
 When the user wants to know what they have on their bag using a desktop display:
-![shopping_bag_page_desktop](documentation/wireframes/doc/shoppingbag-desktop.png)
+![shopping_bag_page_desktop](documentation/wireframes/docs/shoppingbag-desktop.png)
 
 Profile Page Desktop:
 When a user tries to view their profile information using desktop screen:
-![profile_page_desktop](documentation/wireframes/doc/my-profile-desktop.png)
+![profile_page_desktop](documentation/wireframes/docs/my-profile-desktop.png)
 
 Checkout Page Desktop:
 When the user successfully added a product to their bag and would like to continue with the checkout, this is their checkout display on desktop:
-![Checkout_page_desktop](documentation/wireframes/doc/checkout-desktop.png)
+![Checkout_page_desktop](documentation/wireframes/docs/checkout-desktop.png)
 
 Success Page Desktop:
 When the user successfully made an order transaction of their product, this is their order confirm page/success display on desktop:
-![Success_page_desktop](documentation/wireframes/doc/order-confirm-detail.png)
+![Success_page_desktop](documentation/wireframes/docs/order-confirm-detail.png)
 
 ### Wire-frames / Mobile view
 Below I have shared some but not all of the wireframes design on the small device/mobile displays:
 
 Sign up / register view on mobile:
-![Sign_up_mobile_view](documentation/wireframes/doc/signup_mobile.png)
+![Sign_up_mobile_view](documentation/wireframes/docs/signup_mobile.png)
 
 Sign in / login view on mobile:
-![Sign in_mobile_view](documentation/wireframes/doc/signin_mobile.png)
+![Sign in_mobile_view](documentation/wireframes/docs/signin_mobile.png)
 
 My Profile view on mobile:
-![My_profile_mobile_view](documentation/wireframes/doc/my-profile-mobile.png)
+![My_profile_mobile_view](documentation/wireframes/docs/my-profile-mobile.png)
 
 My Shopping Bag view on mobile:
-![My_shopping_Bag_mobile_view](documentation/wireframes/doc/shopping-bag-mobile.png)
+![My_shopping_Bag_mobile_view](documentation/wireframes/docs/shopping-bag-mobile.png)
 
 Checkout view on mobile:
-![Checkout_mobile_view](documentation/wireframes/doc/checkout-mobile.png)
+![Checkout_mobile_view](documentation/wireframes/docs/checkout-mobile.png)
 
 Order Success view on mobile:
-![Order_success_mobile_view](documentation/wireframes/doc/order-confirm-mobile.png)
+![Order_success_mobile_view](documentation/wireframes/docs/order-confirm-mobile.png)
 
 
 <a name="surface"></a>
@@ -447,8 +447,6 @@ The user profile page is split into two parts:
 ### Google Developer Tools
 For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would try to see if I can implement the styling with bootstrap, if I could not replicate the styling I would copy the CSS from google and paste it into my CSS stylesheet. This allows me to keep track of the code I am using.
 
-I also checked the accessibility of the page using lighthouse which did not have good results to the last minute due to th.
-![google_lighthouse](documentation_assets/images/google_lighthouse.png)
 
 ### Responsive Tools
 I used [Am I Responsive](http://ami.responsivedesign.is) to make sure that all my pages are responsive to all devices.
@@ -476,10 +474,10 @@ I had no errors in my JavaScript files:
 I used [PEP8 online](http://pep8online.com/) to check for any errors within my Python files. The validator showed multiple "line too long" errors. This was rectified by adding each statement as a new line.
 
 urls.py errors:
-![urls_errors](documentation/wireframes/mock-up/urls-errors.png)
+![urls_errors](documentation/wireframes/mock-up/urls-error.png)
 
 Fixed urls.py validation:
-![urls_fixed_errors](documentation/wireframes/mock-up/urls-fixed-errors.png)
+![urls_fixed_errors](documentation/wireframes/mock-up/urls-fixed-error.png)
 
 There were also "line too long" errors within my settings.py file but I have chosen to ignore these as this is a very important file.
 
@@ -596,8 +594,6 @@ Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Edit product form | Checked the form submitted only when all required fields are filled out. | PASS
 Form validation | Checked that the price input only allows number input and not any text | PASS
 
-![edit_profile_google_lighthouse](documentation_assets/images/edit_profile_google_lighthouse.png)
-
 ### Register page
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
@@ -679,7 +675,7 @@ Signup link | Checked the signup link redirects to the home page with a message 
         - Create a Procfile
 
 - Deploy new empty project to Heroku
-![initial_heroku_deployment](documentation_assets/images/initial_deployment_successful.png)
+![initial_heroku_deployment](documentation/wireframes/mock-up/initial-deployment-successful.png)
 
 <a name="deployment"></a>
 
