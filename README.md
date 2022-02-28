@@ -197,60 +197,60 @@ On the finished product illustrations, you will find all the clearly implemented
 
 Home/Landing Page Desktop:
 When the home page is accessed with large device screen:
-![home_page_desktop](documentation/wireframes/homepagedesktop.png)
+![home_page_desktop](documentation/wireframes/docs/homepagedesktop.png)
 
 All Products Page Desktop:
 When the all products page is accessed by large device screen:
-![all_products_page_desktop](documentation/wireframes/all-products-page.png)
+![all_products_page_desktop](documentation/wireframes/docs/all-products-page.png)
 
 Sign Up /Register Page Desktop:
 When a user accesses the register / sign up page on desktop display:
-![register_page_desktop](documentation/wireframes/signup_desktop.png)
+![register_page_desktop](documentation/wireframes/docs/signup_desktop.png)
 
 Sign In /Login Page Desktop:
 This displays to a registered user trying to access their account on desktop:
-![login_page_desktop](documentation/wireframes/signin_desktop.png)
+![login_page_desktop](documentation/wireframes/docs/signin_desktop.png)
 
 Product Detail Page Desktop:
 When User gets more information on the specific product using a desktop display:
-![product_detail_page_desktop](documentation/wireframes/product-details-page-desktop.png)
+![product_detail_page_desktop](documentation/wireframes/docs/product-details-page-desktop.png)
 
 Shopping bag Page Desktop:
 When the user wants to know what they have on their bag using a desktop display:
-![shopping_bag_page_desktop](documentation/wireframes/shoppingbag-desktop.png)
+![shopping_bag_page_desktop](documentation/wireframes/docs/shoppingbag-desktop.png)
 
 Profile Page Desktop:
 When a user tries to view their profile information using desktop screen:
-![profile_page_desktop](documentation/wireframes/my-profile-desktop.png)
+![profile_page_desktop](documentation/wireframes/docs/my-profile-desktop.png)
 
 Checkout Page Desktop:
 When the user successfully added a product to their bag and would like to continue with the checkout, this is their checkout display on desktop:
-![Checkout_page_desktop](documentation/wireframes/checkout-desktop.png)
+![Checkout_page_desktop](documentation/wireframes/docs/checkout-desktop.png)
 
 Success Page Desktop:
 When the user successfully made an order transaction of their product, this is their order confirm page/success display on desktop:
-![Success_page_desktop](documentation/wireframes/order-confirm-detail.png)
+![Success_page_desktop](documentation/wireframes/docs/order-confirm-detail.png)
 
 ### Wire-frames / Mobile view
 Below I have shared some but not all of the wireframes design on the small device/mobile displays:
 
 Sign up / register view on mobile:
-![Sign_up_mobile_view](documentation/wireframes/signup_mobile.png)
+![Sign_up_mobile_view](documentation/wireframes/docs/signup_mobile.png)
 
 Sign in / login view on mobile:
-![Sign in_mobile_view](documentation/wireframes/signin_mobile.png)
+![Sign in_mobile_view](documentation/wireframes/docs/signin_mobile.png)
 
 My Profile view on mobile:
-![My_profile_mobile_view](documentation/wireframes/my-profile-mobile.png)
+![My_profile_mobile_view](documentation/wireframes/docs/my-profile-mobile.png)
 
 My Shopping Bag view on mobile:
-![My_shopping_Bag_mobile_view](documentation/wireframes/shopping-bag-mobile.png)
+![My_shopping_Bag_mobile_view](documentation/wireframes/docs/shopping-bag-mobile.png)
 
 Checkout view on mobile:
-![Checkout_mobile_view](documentation/wireframes/checkout-mobile.png)
+![Checkout_mobile_view](documentation/wireframes/docs/checkout-mobile.png)
 
 Order Success view on mobile:
-![Order_success_mobile_view](documentation/wireframes/order-confirm-mobile.png)
+![Order_success_mobile_view](documentation/wireframes/docs/order-confirm-mobile.png)
 
 
 <a name="surface"></a>
@@ -302,11 +302,9 @@ The link to the font can be found [here](https://fonts.google.com/share?selectio
 
 #### Home page
 
-<<<<<<< HEAD
+
 - Users are greeted with a full height cover image which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages depending on the category they choose, there is also an added link element called "contact us" that redirects users to a contact form which will let users write their message to the admin of the site, price and rating with an added link that redirects user to all products.
-=======
 - Users are greeted with a full height cover image which has relevance to the purpose of the site. There are 3 links available to the user which will take the users to products pages depending on the category they choose, there is also an added link element called "All Products" that redirects users to search products by category, price and rating with an added link that redirects users to all products.
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 - There are featured cards for the 4 product categories for shoes link . On desktop devices, when a user hovers over the card images, each hovered card will display the linked elements by dropdown. On mobile devices when a user clicks on one of the image cards, the links will show the elements by dropdown.  
 
 #### Products Page
@@ -365,11 +363,10 @@ The user profile page is split into two parts:
 - Firstly users can update their default delivery information by filling in the form and clicking the update information button allowing for easier purchasing at checkout.
 - The second column has information about a user's past orders. Users can click on the order number to take them to the checkout success page. Going to the confirmation page from the user's profile, rather than a keep shopping link there is a link for the user to take them back to their profile. A message to inform the user that this is a past order confirmation is displayed to avoid confusion.
 
-<<<<<<< HEAD
 #### User Shopping Bag
-=======
+
 #### Shopping Bag
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
+
 - This page is accessible to all users. If a user has not added any products to their bag then the user will be informed of this and a link to the all products page will be displayed.
 - When a user has added products to their bag they will be displayed here in the same format as the products page. Users will have all the same functionality as the products page from here.
 
@@ -450,53 +447,42 @@ The user profile page is split into two parts:
 ### Google Developer Tools
 For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would try to see if I can implement the styling with bootstrap, if I could not replicate the styling I would copy the CSS from google and paste it into my CSS stylesheet. This allows me to keep track of the code I am using.
 
-I also checked the accessibility of the page using lighthouse.
-![google_lighthouse](documentation_assets/images/google_lighthouse.png)
 
 ### Responsive Tools
 I used [Am I Responsive](http://ami.responsivedesign.is) to make sure that all my pages are responsive to all devices.
 
 ### W3C Validator Tools
 #### HTML:
-I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within the HTML pages.
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within the HTML page.
 
-I had an error on the base.html template:
-![base.html_error](documentation_assets/images/base.html_error.png)
-
-This was then rectified by adding the lang attribute to the current HTML tag and deleting the other one.
-![base.html_fix](documentation_assets/images/base.html_fix.png)
-
-I had an error on the contact.html template:
-![contact.html_error](documentation_assets/images/contact.html_error.png)
-
-This was then rectified by removing the width styling of 100% and replacing it with a class="w-100".
-![contact.html_fix](documentation_assets/images/contact.html_fix.png)
+I had an error on the base.html template and this is because the templates are not regular html pages but jinja template by using flask as one of the project's libraries:
+![base.html_error](documentation/wireframes/mock-up/base.html-errors.png)
 
 #### CSS:
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
 
 I had no errors in my CSS file:
-![css_validation](documentation_assets/images/css_validation.png)
+![css_validation](documentation/wireframes/mock-up/css-validation.png)
 
 ### JavaScript:
-I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript script tags. JS Hint showed warnings on line 1 which was missing a semicolon, however as this was for the script tag I have ignored it. This piece of JavaScript was long copied and pasted from an external source therefore, I have not made any changes to the code.
+I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript script tags. JS Hint showed warnings on line 117 which was missing a semicolon, however as this was for the script tag I have ignored it. This piece of JavaScript was along copied and pasted from an external source therefore, I have not made any changes to the code.
 
 I had no errors in my JavaScript files:
-![javascript_validation](documentation_assets/images/javascript_validation.png)
+![javascript_validation](documentation/wireframes/mock-up/javascript-validation.png)
 
 ### Python:
 I used [PEP8 online](http://pep8online.com/) to check for any errors within my Python files. The validator showed multiple "line too long" errors. This was rectified by adding each statement as a new line.
 
 urls.py errors:
-![urls_errors](documentation_assets/images/urls_errors.png)
+![urls_errors](documentation/wireframes/mock-up/urls-error.png)
 
 Fixed urls.py validation:
-![urls_fixed_errors](documentation_assets/images/urls_fixed_errors.png)
+![urls_fixed_errors](documentation/wireframes/mock-up/urls-fixed-error.png)
 
 There were also "line too long" errors within my settings.py file but I have chosen to ignore these as this is a very important file.
 
 settings.py errors:
-![settings_errors](documentation_assets/images/settings_errors.png)
+![settings_errors](documentation/wireframes/mock-up/settings-error.png)
 
 ## Manual Testing
 I have tested my site on Safari and google chrome on multiple devices.
@@ -569,11 +555,6 @@ Keep Shopping button | When clicking the keep shopping button on the page, the b
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
 Checkout Form | Checked the form submitted only when all required fields are filled out. | PASS
 If not signed in | Checked to see if the user has not signed in the site and allowed a message displaying asking the user to create an account or login to save this information . | PASS
-<<<<<<< HEAD
-
-![booking_google_lighthouse](documentation_assets/images/booking_google_lighthouse.png)
-=======
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 ### Edit Profile page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -600,18 +581,9 @@ TEST            | OUTCOME                          | PASS / FAIL
 Media | All media assets are displayed properly, have no pixelation or stretched images and are responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-<<<<<<< HEAD
-Create profile form | Checked the form submitted only when all required fields are filled out. | PASS
-If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
 Form validation | Checked that the telephone number input only allows number input and not any text | PASS
-
-![create_profile_validation](documentation_assets/images/create_profile_input_validation.png)
-![create_profile_google_lighthouse](documentation_assets/images/create_profile_google_lighthouse.png)
-=======
 Update profile | Checked the form updates when personal information is added or deleted are filled out. | PASS
 Form validation | Checked that when the profile is updated, the added data is saved | PASS
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
-
 
 ### Edit product page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -619,16 +591,8 @@ TEST            | OUTCOME                          | PASS / FAIL
 Media | All media assets are displayed properly, have no pixelation or stretched images and are responsive on all devices. | PASS
 Responsiveness | Check every element on-page for consistent scalability in mobile, tablet and desktop view.| PASS
 Accessibility | Checked the accessibility of the page using lighthouse| PASS
-<<<<<<< HEAD
-Edit profile form | Checked the form submitted only when all required fields are filled out. | PASS
-Form validation | Checked that the telephone number input only allows number input and not any text | PASS
-If the profile has not been created | Checked to see if the user has created a profile, if not it will redirect the user to the create profile page | PASS
-
-![edit_profile_google_lighthouse](documentation_assets/images/edit_profile_google_lighthouse.png)
-=======
 Edit product form | Checked the form submitted only when all required fields are filled out. | PASS
 Form validation | Checked that the price input only allows number input and not any text | PASS
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 ### Register page
 TEST            | OUTCOME                          | PASS / FAIL  
@@ -711,7 +675,7 @@ Signup link | Checked the signup link redirects to the home page with a message 
         - Create a Procfile
 
 - Deploy new empty project to Heroku
-![initial_heroku_deployment](documentation_assets/images/initial_deployment_successful.png)
+![initial_heroku_deployment](documentation/wireframes/mock-up/initial-deployment-successful.png)
 
 <a name="deployment"></a>
 
@@ -761,10 +725,7 @@ All Products Page:
 ![all_products_desktop_preview](documentation/wireframes/end_product/all-products-desktop.png)
 
 ![all_products_mobile_preview](documentation/wireframes/end_product/all-product-mobile.png)
-<<<<<<< HEAD
-=======
 
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 My profile Page:
 ![my_profile_desktop_preview](documentation/wireframes/end_product/profile-desktop.png)
 
@@ -795,6 +756,11 @@ Product Management Page:
 
 ![product_management_mobile_preview](documentation/wireframes/end_product/product-management-mobile.png)
 
+Contact Page:
+![contact_desktop_preview](documentation/wireframes/end_product/contacts-desktop.png)
+
+![contact_mobile_preview](documentation/wireframes/end_product/contacts-mobile.png)
+
 
 
 <a name="known-bugs"></a>
@@ -803,15 +769,9 @@ Product Management Page:
 
 [Go to the top](#table-of-contents)
 
-<<<<<<< HEAD
-- Some items in the navigation bar don't have an active red background to show the user they are on the selected page.
-
-- Some forms for this project is built by using the django-crispy-forms libraries therefore, some of the fields do not contain all the validation rules as I cannot target the individual inputs. For example on the edit profile form, I have added the validation rule so that the user can only enter a number, however I couldn't not figure out a way to add a min and max length value.
-=======
-- After deploying my project to heroku, the product detail's page was throwing "500 server error which was due to the database in heroku didnt' have a proper migrations. This was solved by swithiching a database during development and did migrations then redeploy the project and it functioned.
+- After deploying my project to heroku, the product detail's page was throwing "500 server error which was due to the database in heroku didnt' have a proper migrations. This was solved by swithiching a database during development where migrations of the changes were made to the database.
 
 - The home page image loads for a while before displeying the whole page due to the difference of browsers.
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
 
 <a name="credits"></a>
 
@@ -833,15 +793,8 @@ Product Management Page:
 -   The nav bar menu idea came from [Boutique Ado](https://github.com/ckz8780/boutique_ado_v1).
 
 ### Project Acknowledgements
-<<<<<<< HEAD
-- Code Institute Tutor Support - For directing me to the correct solutions for any bugs.
 
-- My Mentor - For his constructive criticism and always pushing me to go further to develop my skills.
-
-
-=======
 - Code Institute Tutor Support - For directing and giving me full support on finding the correct solutions for the difficult moments I had.
 
 - My Mentor "Marcel M" - For his constructive criticism and always pushing me to go further to develop my skills.
 
->>>>>>> b41f1317a455b351fb5316749292106dd97de9d8
