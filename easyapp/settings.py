@@ -22,13 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-#SECRET_KEY = os.environ.get('SECRET_KEY', '')
-SECRET_KEY = 'ztu5dhnioolk=k_oa7ga8p+v8eo1&&hk@x8hxn60wu)g*l4n*0'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-#DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
+
 ALLOWED_HOSTS = ['mls4.herokuapp.com', 'localhost']
 
 
@@ -126,17 +125,17 @@ WSGI_APPLICATION = 'easyapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# if 'DATABASE_URL' in os.environ:
-DATABASES = {
-    'default': dj_database_url.parse('postgres://tgvezaeiznpods:c821ffed11095a86a9f66856f03c4088c16bdf3a75f67102f052014abb4b896e@ec2-34-194-171-47.compute-1.amazonaws.com:5432/d1pif7altql25i')
-}
-#else:
-#    DATABASES = {
-#        'default': {
-#            'ENGINE': 'django.db.backends.sqlite3',
-#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#        }
-#    }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
